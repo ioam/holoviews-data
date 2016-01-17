@@ -93,7 +93,7 @@
 <li class="toctree-l2"><a class="reference internal" href="Showcase.html">Showcase</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Introduction.html">Introduction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exploring_Data.html">Exploring Data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Transforming_Data.html">Transforming Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sampling_Data.html">Sampling Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Options.html">Options</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exporting.html">Exporting</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Continuous_Coordinates.html">Continuous Coordinates</a></li>
@@ -147,7 +147,7 @@
 <p>The HoloViews tutorials are the best way to learn what HoloViews can
 do and how to use it.  The web site has static copies of each
 tutorial, but it is much more effective to install HoloViews and try
-it out live for yourself, using the notebook files in this <a class="reference external" href="notebooks-1.4.0.zip">zip
+it out live for yourself, using the notebook files in this <a class="reference external" href="notebooks-1.4.1.zip">zip
 archive</a>.</p>
 <div class="section" id="introductory-tutorials">
 <h2>Introductory Tutorials<a class="headerlink" href="#introductory-tutorials" title="Permalink to this headline">¶</a></h2>
@@ -163,8 +163,8 @@ How to use HoloViews containers to flexibly hold all your data
 ready for selecting, sampling, slicing, viewing, combining, and
 animating.</li>
 <li><a class="reference external" href="Sampling_Data">Sampling Data:</a>
-How to select data in multiple dimensions and begin transforming
-it into different types.</li>
+How to select data in multiple dimensions, returning a specific
+(potentially lower dimensional) region of the available space.</li>
 </ul>
 </div>
 <div class="section" id="supplementary-tutorials">
@@ -183,8 +183,12 @@ smooth functions.</li>
 <li><a class="reference external" href="Composing_Data">Composing Data:</a>
 Complete example of the full range of hierarchical, multidimensional
 discrete and continuous data structures supported by HoloViews.</li>
+<li><a class="reference external" href="Bokeh_Backend">Bokeh Backend:</a>
+Additional interactivity available via the
+<a class="reference external" href="http://bokeh.pydata.org">Bokeh</a> backend, such as interactive zooming
+and panning linked automatically between plots.</li>
 <li><a class="reference external" href="Pandas_Conversion">Pandas Conversion:</a>
-Using HoloViews the DFrame conversion wrapper to convert pandas
+Using the DFrame conversion wrapper of HoloViews to convert pandas
 dataframes into HoloViews components.</li>
 <li><a class="reference external" href="Pandas_Seaborn">Pandas and Seaborn:</a>
 Specialized visualizations provided by pandas and seaborn.</li>
@@ -200,7 +204,9 @@ visualization options for that object type:</p>
 <ul class="simple">
 <li><a class="reference external" href="Elements">Elements:</a>
 Overview and examples of all HoloViews element types, the atomic items
-that can be combined together.</li>
+that can be combined together, available for either the
+<a class="reference external" href="Elements">Matplotlib</a> or <a class="reference external" href="Bokeh_Elements">Bokeh</a> plotting
+library backends.</li>
 <li><a class="reference external" href="Containers">Containers:</a>
 Overview and examples of all the HoloViews container types.</li>
 </ul>
@@ -259,7 +265,7 @@ extend HoloViews and apply it to real world data see the <a class="reference ext
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'1.4.0',
+            VERSION:'1.4.1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true

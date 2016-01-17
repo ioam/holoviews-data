@@ -94,7 +94,7 @@
 <li class="toctree-l2"><a class="reference internal" href="Showcase.html">Showcase</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Introduction.html">Introduction</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Exploring_Data.html">Exploring Data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Transforming_Data.html">Transforming Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sampling_Data.html">Sampling Data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Options.html">Options</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="">Exporting</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Continuous_Coordinates.html">Continuous Coordinates</a></li>
@@ -528,21 +528,19 @@ function HoloViewsWidget(){
         		}
         		if (data !== undefined) {
         			if (data.root !== undefined) {
-        				doc = Bokeh.index[data.root].model.document;
-        				$.each(data, function(id, value) {
-        					ds = doc.get_model_by_id(id);
-        					if (ds != undefined) {
-        						ds.set(value.data);
-        					}
-        				});
-        			} else {
-        				$.each(data, function(id, value) {
-        					var ds = Bokeh.Collections(value.type).get(id);
-        					if (ds != undefined) {
-        						ds.set(value.data);
-        					}
-        				});
+        				var doc = Bokeh.index[data.root].model.document;
         			}
+        			$.each(data.data, function(i, value) {
+        				if (data.root !== undefined) {
+        					var ds = doc.get_model_by_id(value.id);
+        				} else {
+        					var ds = Bokeh.Collections(value.type).get(value.id);
+        				}
+        				if (ds != undefined) {
+        					ds.set(value.data);
+        					ds.trigger('change');
+        				}
+        			});
         		}
         	},
         	dynamic_update : function(current){
@@ -568,14 +566,10 @@ function HoloViewsWidget(){
         				this.update(current);
         			}
         		}
-        		if(!(current in this.frames)) {
-        			var kernel = IPython.notebook.kernel;
-        			callbacks = {iopub: {output: $.proxy(callback, this, this.initialized)}};
-        			var cmd = "holoviews.plotting.widgets.NdWidget.widgets['" + this.id + "'].update(" + current + ")";
-        			kernel.execute("import holoviews;" + cmd, callbacks, {silent : false});
-        		} else {
-        			this.update(current);
-        		}
+        		var kernel = IPython.notebook.kernel;
+        		callbacks = {iopub: {output: $.proxy(callback, this, this.initialized)}};
+        		var cmd = "holoviews.plotting.widgets.NdWidget.widgets['" + this.id + "'].update(" + current + ")";
+        		kernel.execute("import holoviews;" + cmd, callbacks, {silent : false});
         	}
         }
         
@@ -655,14 +649,10 @@ function HoloViewsWidget(){
         				this.update(current);
         			}
         		}
-        		if((this.mode == 'nbagg') || !(current in this.cache)) {
-        			var kernel = IPython.notebook.kernel;
-        			callbacks = {iopub: {output: $.proxy(callback, this)}};
-        			var cmd = "holoviews.plotting.widgets.NdWidget.widgets['" + this.id + "'].update(" + current + ")";
-        			kernel.execute("import holoviews;" + cmd, callbacks, {silent : false});
-        		} else {
-        			this.update(current);
-        		}
+        		var kernel = IPython.notebook.kernel;
+        		callbacks = {iopub: {output: $.proxy(callback, this)}};
+        		var cmd = "holoviews.plotting.widgets.NdWidget.widgets['" + this.id + "'].update(" + current + ")";
+        		kernel.execute("import holoviews;" + cmd, callbacks, {silent : false});
         	}
         }
         
@@ -906,7 +896,7 @@ var kernel = IPython.notebook.kernel; var nbname = IPython.notebook.get_notebook
 
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Automatic capture is now enabled. [2015-12-08 01:50:27]
+<pre>Automatic capture is now enabled. [2016-01-17 05:00:12]
 </pre>
 </div>
 </div>
@@ -1237,6 +1227,7 @@ Levels_0.1-0.8,Overlay,Image,Level.hvz      : application/zip
 f4e5e78a.svg                                : image/svg+xml
 f4e5e78a.hvz                                : application/zip
 metadata.json                               : text/json
+metadata.json-1                             : text/json
 </pre>
 </div>
 </div>
@@ -1552,7 +1543,7 @@ var kernel = IPython.notebook.kernel; var json_data = IPython.notebook.toJSON();
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'1.4.0',
+            VERSION:'1.4.1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true
