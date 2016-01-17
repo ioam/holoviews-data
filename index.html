@@ -14,6 +14,8 @@
 
   
   
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
 
   
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
@@ -43,9 +45,10 @@
     <link rel="top" title="HoloViews" href="../index.html"/>
         <link rel="next" title="Reference Manual" href="../Reference_Manual/index.html"/>
         <link rel="prev" title="HoloViews Tutorials" href="../Tutorials/index.html"/>
-    <script type="text/javascript" src='../_static/jquery.js'></script>
-    <script type="text/javascript" src='../_static/underscore.js'></script>
-    <script type="text/javascript" src='../_static/doctools.js'></script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src='../_static/require.js'></script>
     <script type="text/javascript" src='../_static/bootstrap.js'></script>
     <script type="text/javascript" src='../_static/custom.js'></script>
@@ -92,7 +95,13 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="">Examples</a><ul class="simple">
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../Reference_Manual/index.html">Reference Manual</a><ul class="simple">
+<li class="toctree-l1"><a class="reference internal" href="../Reference_Manual/index.html">Reference Manual</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Reference_Manual/holoviews.core.html">core</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Reference_Manual/holoviews.element.html">element</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Reference_Manual/holoviews.interface.html">interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Reference_Manual/holoviews.ipython.html">ipython</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Reference_Manual/holoviews.operation.html">operation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Reference_Manual/holoviews.plotting.html">plotting</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../FAQ.html">FAQ</a></li>
@@ -125,7 +134,7 @@
 <h1>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h1>
 <p>This collection of examples demonstrate interesting uses of HoloViews
 that go beyond the tutorial material. Suitable material includes
-application of HoloViews to real-world data, examples of advanced
+application of HoloViews to real-world data, and examples of advanced
 usage and demonstrations of how HoloViews may be extended, including
 third-party libraries that feature HoloViews integration.</p>
 <p>We hope this set of examples will be a useful way of discovering what
@@ -147,11 +156,11 @@ subject easier and more succinct.</li>
 Entry into a machine learning competition for EEG classification.</li>
 <li><a class="reference external" href="http://www.inf.ed.ac.uk/teaching/courses/inf1-cg/assignments/Inf1-CG_Assignment1_Scores.html">Marking summary statistics</a>:
 Visualizing the marking results of an undergraduate assignment with
-  HoloViews.</li>
-<li><a class="reference external" href="HipsterDynamics.html">The Hipster Effect</a>:
-  Adapted version of <a href="https://jakevdp.github.io/blog/2014/11/11/the-hipster-effect-interactive/">Jake Vanderplas' blog post</a> about dynamic systems and modeling of conformity.</li>
-
+HoloViews.</li>
+<li><a class="reference external" href="HipsterDynamics.html">The Hipster Effect</a>: Adapted version of <a href="#id1"><span class="problematic" id="id2">`</span></a>post from Jake Vanderplas</li>
 </ul>
+<p>&lt;<a class="reference external" href="https://jakevdp.github.io/blog/2014/11/11/the-hipster-effect-interactive">https://jakevdp.github.io/blog/2014/11/11/the-hipster-effect-interactive</a>&gt;`_
+about dynamic systems and modeling of conformity.</p>
 </div>
 <div class="section" id="extensions">
 <h2>Extensions<a class="headerlink" href="#extensions" title="Permalink to this headline">¶</a></h2>
@@ -161,8 +170,13 @@ extended in new (and unexpected!) directions:</p>
 <li><a class="reference external" href="http://philippjfr.com/blog/interactive-plots-with-holoviews-and-mpld3/">Interactive plots with mpld3</a>:
 Example usage of the mpld3 rendering backend allowing you to
 generate D3.js-based plots with interactive widgets.</li>
-<li><a class="reference external" href="http://philippjfr.com/blog/interfacing-holoviews-with-julia/">Interfacing HoloViews with Julia</a>: A
-prototype of a basic interface to the Julia programming language.</li>
+<li><a class="reference external" href="http://philippjfr.com/blog/interfacing-holoviews-with-julia/">Using HoloViews from Julia</a>:
+A prototype interface to allow HoloViews to be used from the Julia
+programming language.  (Contributions welcome!)</li>
+<li><a class="reference external" href="http://philippjfr.com/work/work-in-progress/plotly/">Experimental Plotly backend</a>: A
+prototype of a <a href="#id3"><span class="problematic" id="id4">`Plotly`&lt;https://plot.ly/python&gt;`_</span></a>-based backend for HoloViews,
+with progress summarized in an ongoing <a class="reference external" href="https://github.com/ioam/holoviews/pull/398">pull request</a>.
+(Contributions welcome!)</li>
 </ul>
 </div>
 <div class="section" id="external-projects">
@@ -206,6 +220,17 @@ al. (2013)</a>,
         &copy; Copyright 2015 IOAM: Jean-Luc R. Stevens, Philipp Rudiger, and James A. Bednar.
     </p>
   </div>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61554933-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
 </footer>
         </div>
       </div>
@@ -221,17 +246,12 @@ al. (2013)</a>,
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'2014.05.14',
+            VERSION:'1.4.1',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  true
         };
     </script>
-      <script type="text/javascript" src="../_static/jquery.js"></script>
-      <script type="text/javascript" src="../_static/underscore.js"></script>
-      <script type="text/javascript" src="../_static/doctools.js"></script>
-      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
   
 
   
