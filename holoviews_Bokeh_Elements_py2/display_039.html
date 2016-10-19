@@ -1,0 +1,211 @@
+<b>[Display 39]</b></br></br>Out[40]: [2K[2K<br>[2K[2K<br><br><div style='display: table; margin: 0 auto;'>
+
+
+
+
+
+
+  <div class="bk-root" id="140"></div>
+
+<script type="text/javascript">
+  (function(root) {
+  function embed_document(root) {
+    
+  var docs_json = {
+  "139": {
+    "roots": {
+      "references": [
+        {
+          "attributes": {},
+          "id": "20434",
+          "type": "Selection"
+        },
+        {
+          "attributes": {
+            "editor": {
+              "id": "20423",
+              "type": "IntEditor"
+            },
+            "field": "Weight",
+            "formatter": {
+              "id": "20422",
+              "type": "NumberFormatter"
+            },
+            "title": "Weight"
+          },
+          "id": "20424",
+          "type": "TableColumn"
+        },
+        {
+          "attributes": {},
+          "id": "20427",
+          "type": "StringFormatter"
+        },
+        {
+          "attributes": {},
+          "id": "20435",
+          "type": "UnionRenderers"
+        },
+        {
+          "attributes": {},
+          "id": "20418",
+          "type": "IntEditor"
+        },
+        {
+          "attributes": {
+            "editor": {
+              "id": "20418",
+              "type": "IntEditor"
+            },
+            "field": "Age",
+            "formatter": {
+              "id": "20417",
+              "type": "NumberFormatter"
+            },
+            "title": "Age"
+          },
+          "id": "20419",
+          "type": "TableColumn"
+        },
+        {
+          "attributes": {},
+          "id": "20423",
+          "type": "IntEditor"
+        },
+        {
+          "attributes": {},
+          "id": "20422",
+          "type": "NumberFormatter"
+        },
+        {
+          "attributes": {
+            "columns": [
+              {
+                "id": "20419",
+                "type": "TableColumn"
+              },
+              {
+                "id": "20424",
+                "type": "TableColumn"
+              },
+              {
+                "id": "20429",
+                "type": "TableColumn"
+              }
+            ],
+            "height": 300,
+            "reorderable": false,
+            "source": {
+              "id": "20416",
+              "type": "ColumnDataSource"
+            },
+            "view": {
+              "id": "20433",
+              "type": "CDSView"
+            },
+            "width": 400
+          },
+          "id": "20432",
+          "type": "DataTable"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "data": {
+              "Age": [
+                10
+              ],
+              "Height": [
+                "0.8 meters"
+              ],
+              "Weight": [
+                15
+              ]
+            },
+            "selected": {
+              "id": "20434",
+              "type": "Selection"
+            },
+            "selection_policy": {
+              "id": "20435",
+              "type": "UnionRenderers"
+            }
+          },
+          "id": "20416",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {},
+          "id": "20417",
+          "type": "NumberFormatter"
+        },
+        {
+          "attributes": {
+            "editor": {
+              "id": "20428",
+              "type": "StringEditor"
+            },
+            "field": "Height",
+            "formatter": {
+              "id": "20427",
+              "type": "StringFormatter"
+            },
+            "title": "Height"
+          },
+          "id": "20429",
+          "type": "TableColumn"
+        },
+        {
+          "attributes": {},
+          "id": "20428",
+          "type": "StringEditor"
+        },
+        {
+          "attributes": {
+            "source": {
+              "id": "20416",
+              "type": "ColumnDataSource"
+            }
+          },
+          "id": "20433",
+          "type": "CDSView"
+        }
+      ],
+      "root_ids": [
+        "20432"
+      ]
+    },
+    "title": "Bokeh Application",
+    "version": "1.0.0"
+  }
+};
+  var render_items = [
+  {
+    "docid": 139,
+    "roots": {
+      "20432": 140
+    }
+  }
+];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    var attempts = 0;
+    var timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        embed_document(root);
+        clearInterval(timer);
+      }
+      attempts++;
+      if (attempts > 100) {
+        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        clearInterval(timer);
+      }
+    }, 10, root)
+  }
+})(window);
+</script>
+</div>
