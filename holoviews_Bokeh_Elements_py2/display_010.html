@@ -5,7 +5,7 @@
 
 
 
-  <div class="bk-root" id="40"></div>
+  <div class="bk-root" id="40" data-root-id="5823"></div>
 
 <script type="text/javascript">
   (function(root) {
@@ -16,29 +16,137 @@
     "roots": {
       "references": [
         {
-          "attributes": {
-            "overlay": {
-              "id": "5888",
-              "type": "BoxAnnotation"
-            }
-          },
-          "id": "5883",
-          "type": "BoxZoomTool"
-        },
-        {
-          "attributes": {},
-          "id": "5882",
-          "type": "WheelZoomTool"
-        },
-        {
           "attributes": {},
           "id": "5881",
-          "type": "PanTool"
+          "type": "UnionRenderers"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "factors": [
+              "A",
+              "B"
+            ],
+            "tags": [
+              [
+                [
+                  "Group",
+                  "Group",
+                  null
+                ]
+              ]
+            ]
+          },
+          "id": "5821",
+          "type": "FactorRange"
+        },
+        {
+          "attributes": {
+            "below": [
+              {
+                "id": "5832",
+                "type": "CategoricalAxis"
+              }
+            ],
+            "center": [
+              {
+                "id": "5835",
+                "type": "Grid"
+              },
+              {
+                "id": "5840",
+                "type": "Grid"
+              },
+              {
+                "id": "5867",
+                "type": "Legend"
+              }
+            ],
+            "left": [
+              {
+                "id": "5836",
+                "type": "LinearAxis"
+              }
+            ],
+            "margin": null,
+            "min_border_bottom": 10,
+            "min_border_left": 10,
+            "min_border_right": 10,
+            "min_border_top": 10,
+            "plot_height": 300,
+            "plot_width": 300,
+            "renderers": [
+              {
+                "id": "5859",
+                "type": "GlyphRenderer"
+              }
+            ],
+            "sizing_mode": "fixed",
+            "title": {
+              "id": "5824",
+              "type": "Title"
+            },
+            "toolbar": {
+              "id": "5846",
+              "type": "Toolbar"
+            },
+            "x_range": {
+              "id": "5821",
+              "type": "FactorRange"
+            },
+            "x_scale": {
+              "id": "5828",
+              "type": "CategoricalScale"
+            },
+            "y_range": {
+              "id": "5822",
+              "type": "Range1d"
+            },
+            "y_scale": {
+              "id": "5830",
+              "type": "LinearScale"
+            }
+          },
+          "id": "5823",
+          "subtype": "Figure",
+          "type": "Plot"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "end": 125.89457251926802,
+            "reset_end": 125.89457251926802,
+            "reset_start": 0,
+            "tags": [
+              [
+                [
+                  "Count",
+                  "Count",
+                  null
+                ]
+              ]
+            ]
+          },
+          "id": "5822",
+          "type": "Range1d"
+        },
+        {
+          "attributes": {
+            "text": "",
+            "text_color": {
+              "value": "black"
+            },
+            "text_font_size": {
+              "value": "12pt"
+            }
+          },
+          "id": "5824",
+          "type": "Title"
         },
         {
           "attributes": {},
-          "id": "5880",
-          "type": "SaveTool"
+          "id": "5828",
+          "type": "CategoricalScale"
         },
         {
           "attributes": {
@@ -49,34 +157,87 @@
             "active_tap": "auto",
             "tools": [
               {
-                "id": "5880",
+                "id": "5841",
                 "type": "SaveTool"
               },
               {
-                "id": "5881",
+                "id": "5842",
                 "type": "PanTool"
               },
               {
-                "id": "5882",
+                "id": "5843",
                 "type": "WheelZoomTool"
               },
               {
-                "id": "5883",
+                "id": "5844",
                 "type": "BoxZoomTool"
               },
               {
-                "id": "5884",
+                "id": "5845",
                 "type": "ResetTool"
               }
             ]
           },
-          "id": "5885",
+          "id": "5846",
           "type": "Toolbar"
         },
         {
           "attributes": {},
-          "id": "5884",
+          "id": "5845",
           "type": "ResetTool"
+        },
+        {
+          "attributes": {
+            "overlay": {
+              "id": "5866",
+              "type": "BoxAnnotation"
+            }
+          },
+          "id": "5844",
+          "type": "BoxZoomTool"
+        },
+        {
+          "attributes": {},
+          "id": "5843",
+          "type": "WheelZoomTool"
+        },
+        {
+          "attributes": {},
+          "id": "5842",
+          "type": "PanTool"
+        },
+        {
+          "attributes": {},
+          "id": "5841",
+          "type": "SaveTool"
+        },
+        {
+          "attributes": {
+            "dimension": 1,
+            "ticker": {
+              "id": "5837",
+              "type": "BasicTicker"
+            }
+          },
+          "id": "5840",
+          "type": "Grid"
+        },
+        {
+          "attributes": {},
+          "id": "5865",
+          "type": "BasicTickFormatter"
+        },
+        {
+          "attributes": {
+            "items": [
+              {
+                "id": "5868",
+                "type": "LegendItem"
+              }
+            ]
+          },
+          "id": "5867",
+          "type": "Legend"
         },
         {
           "attributes": {
@@ -102,88 +263,27 @@
             "line_width": {
               "value": 2
             },
-            "plot": null,
             "render_mode": "css",
             "right_units": "screen",
             "top_units": "screen"
           },
-          "id": "5888",
+          "id": "5866",
           "type": "BoxAnnotation"
         },
         {
           "attributes": {
-            "data_source": {
-              "id": "5894",
-              "type": "ColumnDataSource"
-            },
-            "glyph": {
-              "id": "5897",
-              "type": "VBar"
-            },
-            "hover_glyph": null,
-            "muted_glyph": {
-              "id": "5899",
-              "type": "VBar"
-            },
-            "nonselection_glyph": {
-              "id": "5898",
-              "type": "VBar"
-            },
-            "selection_glyph": null,
-            "view": {
-              "id": "5901",
-              "type": "CDSView"
-            }
-          },
-          "id": "5900",
-          "type": "GlyphRenderer"
-        },
-        {
-          "attributes": {
             "source": {
-              "id": "5894",
+              "id": "5853",
               "type": "ColumnDataSource"
             }
           },
-          "id": "5901",
+          "id": "5860",
           "type": "CDSView"
         },
         {
           "attributes": {},
-          "id": "5906",
-          "type": "BasicTickFormatter"
-        },
-        {
-          "attributes": {},
-          "id": "5869",
-          "type": "LinearScale"
-        },
-        {
-          "attributes": {},
-          "id": "5904",
+          "id": "5863",
           "type": "CategoricalTickFormatter"
-        },
-        {
-          "attributes": {},
-          "id": "5920",
-          "type": "UnionRenderers"
-        },
-        {
-          "attributes": {
-            "items": [
-              {
-                "id": "5909",
-                "type": "LegendItem"
-              }
-            ],
-            "plot": {
-              "id": "5863",
-              "subtype": "Figure",
-              "type": "Plot"
-            }
-          },
-          "id": "5908",
-          "type": "Legend"
         },
         {
           "attributes": {
@@ -192,127 +292,136 @@
             },
             "renderers": [
               {
-                "id": "5900",
+                "id": "5859",
                 "type": "GlyphRenderer"
               }
             ]
           },
-          "id": "5909",
+          "id": "5868",
           "type": "LegendItem"
         },
         {
           "attributes": {
-            "callback": null,
-            "end": 125.89457251926802,
-            "reset_end": 125.89457251926802,
-            "reset_start": 0
-          },
-          "id": "5861",
-          "type": "Range1d"
-        },
-        {
-          "attributes": {
-            "callback": null,
-            "factors": [
-              "A",
-              "B"
-            ]
-          },
-          "id": "5860",
-          "type": "FactorRange"
-        },
-        {
-          "attributes": {
-            "below": [
-              {
-                "id": "5871",
-                "type": "CategoricalAxis"
-              }
-            ],
-            "left": [
-              {
-                "id": "5875",
-                "type": "LinearAxis"
-              }
-            ],
-            "min_border_bottom": 10,
-            "min_border_left": 10,
-            "min_border_right": 10,
-            "min_border_top": 10,
-            "plot_height": 300,
-            "plot_width": 300,
-            "renderers": [
-              {
-                "id": "5871",
-                "type": "CategoricalAxis"
-              },
-              {
-                "id": "5874",
-                "type": "Grid"
-              },
-              {
-                "id": "5875",
-                "type": "LinearAxis"
-              },
-              {
-                "id": "5879",
-                "type": "Grid"
-              },
-              {
-                "id": "5888",
-                "type": "BoxAnnotation"
-              },
-              {
-                "id": "5908",
-                "type": "Legend"
-              },
-              {
-                "id": "5900",
-                "type": "GlyphRenderer"
-              }
-            ],
-            "title": {
-              "id": "5862",
-              "type": "Title"
+            "axis_label": "Count",
+            "bounds": "auto",
+            "formatter": {
+              "id": "5865",
+              "type": "BasicTickFormatter"
             },
-            "toolbar": {
-              "id": "5885",
-              "type": "Toolbar"
-            },
-            "x_range": {
-              "id": "5860",
-              "type": "FactorRange"
-            },
-            "x_scale": {
-              "id": "5867",
-              "type": "CategoricalScale"
-            },
-            "y_range": {
-              "id": "5861",
-              "type": "Range1d"
-            },
-            "y_scale": {
-              "id": "5869",
-              "type": "LinearScale"
+            "major_label_orientation": "horizontal",
+            "ticker": {
+              "id": "5837",
+              "type": "BasicTicker"
             }
           },
-          "id": "5863",
-          "subtype": "Figure",
-          "type": "Plot"
+          "id": "5836",
+          "type": "LinearAxis"
+        },
+        {
+          "attributes": {},
+          "id": "5837",
+          "type": "BasicTicker"
         },
         {
           "attributes": {
-            "plot": null,
-            "text": "",
-            "text_color": {
+            "ticker": {
+              "id": "5833",
+              "type": "CategoricalTicker"
+            }
+          },
+          "id": "5835",
+          "type": "Grid"
+        },
+        {
+          "attributes": {
+            "axis_label": "Group",
+            "bounds": "auto",
+            "formatter": {
+              "id": "5863",
+              "type": "CategoricalTickFormatter"
+            },
+            "major_label_orientation": "horizontal",
+            "ticker": {
+              "id": "5833",
+              "type": "CategoricalTicker"
+            }
+          },
+          "id": "5832",
+          "type": "CategoricalAxis"
+        },
+        {
+          "attributes": {},
+          "id": "5833",
+          "type": "CategoricalTicker"
+        },
+        {
+          "attributes": {},
+          "id": "5830",
+          "type": "LinearScale"
+        },
+        {
+          "attributes": {},
+          "id": "5854",
+          "type": "Selection"
+        },
+        {
+          "attributes": {
+            "bottom": {
+              "field": "bottom"
+            },
+            "fill_color": {
+              "field": "Stack",
+              "transform": {
+                "id": "5852",
+                "type": "CategoricalColorMapper"
+              }
+            },
+            "top": {
+              "field": "top"
+            },
+            "width": {
+              "value": 0.8
+            },
+            "x": {
+              "field": "Group"
+            }
+          },
+          "id": "5856",
+          "type": "VBar"
+        },
+        {
+          "attributes": {
+            "bottom": {
+              "field": "bottom"
+            },
+            "fill_alpha": {
+              "value": 0.1
+            },
+            "fill_color": {
+              "field": "Stack",
+              "transform": {
+                "id": "5852",
+                "type": "CategoricalColorMapper"
+              }
+            },
+            "line_alpha": {
+              "value": 0.1
+            },
+            "line_color": {
               "value": "black"
             },
-            "text_font_size": {
-              "value": "12pt"
+            "top": {
+              "field": "top"
+            },
+            "width": {
+              "value": 0.8
+            },
+            "x": {
+              "field": "Group"
             }
           },
-          "id": "5862",
-          "type": "Title"
+          "id": "5857",
+          "type": "VBar"
         },
         {
           "attributes": {
@@ -325,7 +434,7 @@
               "#fc4f30"
             ]
           },
-          "id": "5893",
+          "id": "5852",
           "type": "CategoricalColorMapper"
         },
         {
@@ -360,82 +469,18 @@
               }
             },
             "selected": {
-              "id": "5895",
+              "id": "5854",
               "type": "Selection"
             },
             "selection_policy": {
-              "id": "5920",
+              "id": "5881",
               "type": "UnionRenderers"
             }
           },
-          "id": "5894",
+          "id": "5853",
           "type": "ColumnDataSource"
         },
         {
-          "attributes": {},
-          "id": "5895",
-          "type": "Selection"
-        },
-        {
-          "attributes": {
-            "bottom": {
-              "field": "bottom"
-            },
-            "fill_color": {
-              "field": "Stack",
-              "transform": {
-                "id": "5893",
-                "type": "CategoricalColorMapper"
-              }
-            },
-            "top": {
-              "field": "top"
-            },
-            "width": {
-              "value": 0.8
-            },
-            "x": {
-              "field": "Group"
-            }
-          },
-          "id": "5897",
-          "type": "VBar"
-        },
-        {
-          "attributes": {
-            "bottom": {
-              "field": "bottom"
-            },
-            "fill_alpha": {
-              "value": 0.1
-            },
-            "fill_color": {
-              "field": "Stack",
-              "transform": {
-                "id": "5893",
-                "type": "CategoricalColorMapper"
-              }
-            },
-            "line_alpha": {
-              "value": 0.1
-            },
-            "line_color": {
-              "value": "black"
-            },
-            "top": {
-              "field": "top"
-            },
-            "width": {
-              "value": 0.8
-            },
-            "x": {
-              "field": "Group"
-            }
-          },
-          "id": "5898",
-          "type": "VBar"
-        },
-        {
           "attributes": {
             "bottom": {
               "field": "bottom"
@@ -446,7 +491,7 @@
             "fill_color": {
               "field": "Stack",
               "transform": {
-                "id": "5893",
+                "id": "5852",
                 "type": "CategoricalColorMapper"
               }
             },
@@ -466,113 +511,51 @@
               "field": "Group"
             }
           },
-          "id": "5899",
+          "id": "5858",
           "type": "VBar"
         },
         {
-          "attributes": {},
-          "id": "5867",
-          "type": "CategoricalScale"
-        },
-        {
-          "attributes": {},
-          "id": "5872",
-          "type": "CategoricalTicker"
-        },
-        {
           "attributes": {
-            "axis_label": "Group, Group",
-            "bounds": "auto",
-            "formatter": {
-              "id": "5904",
-              "type": "CategoricalTickFormatter"
+            "data_source": {
+              "id": "5853",
+              "type": "ColumnDataSource"
             },
-            "major_label_orientation": "horizontal",
-            "plot": {
-              "id": "5863",
-              "subtype": "Figure",
-              "type": "Plot"
+            "glyph": {
+              "id": "5856",
+              "type": "VBar"
             },
-            "ticker": {
-              "id": "5872",
-              "type": "CategoricalTicker"
+            "hover_glyph": null,
+            "muted_glyph": {
+              "id": "5858",
+              "type": "VBar"
+            },
+            "nonselection_glyph": {
+              "id": "5857",
+              "type": "VBar"
+            },
+            "selection_glyph": null,
+            "view": {
+              "id": "5860",
+              "type": "CDSView"
             }
           },
-          "id": "5871",
-          "type": "CategoricalAxis"
-        },
-        {
-          "attributes": {},
-          "id": "5876",
-          "type": "BasicTicker"
-        },
-        {
-          "attributes": {
-            "plot": {
-              "id": "5863",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "5872",
-              "type": "CategoricalTicker"
-            }
-          },
-          "id": "5874",
-          "type": "Grid"
-        },
-        {
-          "attributes": {
-            "axis_label": "Count",
-            "bounds": "auto",
-            "formatter": {
-              "id": "5906",
-              "type": "BasicTickFormatter"
-            },
-            "major_label_orientation": "horizontal",
-            "plot": {
-              "id": "5863",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "5876",
-              "type": "BasicTicker"
-            }
-          },
-          "id": "5875",
-          "type": "LinearAxis"
-        },
-        {
-          "attributes": {
-            "dimension": 1,
-            "plot": {
-              "id": "5863",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "5876",
-              "type": "BasicTicker"
-            }
-          },
-          "id": "5879",
-          "type": "Grid"
+          "id": "5859",
+          "type": "GlyphRenderer"
         }
       ],
       "root_ids": [
-        "5863"
+        "5823"
       ]
     },
     "title": "Bokeh Application",
-    "version": "1.0.0"
+    "version": "1.1.0rc1"
   }
 };
   var render_items = [
   {
     "docid": 39,
     "roots": {
-      "5863": 40
+      "5823": 40
     }
   }
 ];

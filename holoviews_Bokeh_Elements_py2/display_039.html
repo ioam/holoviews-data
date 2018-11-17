@@ -5,7 +5,7 @@
 
 
 
-  <div class="bk-root" id="140"></div>
+  <div class="bk-root" id="140" data-root-id="20069"></div>
 
 <script type="text/javascript">
   (function(root) {
@@ -17,95 +17,105 @@
       "references": [
         {
           "attributes": {},
-          "id": "20434",
-          "type": "Selection"
+          "id": "20065",
+          "type": "StringEditor"
+        },
+        {
+          "attributes": {},
+          "id": "20064",
+          "type": "StringFormatter"
         },
         {
           "attributes": {
             "editor": {
-              "id": "20423",
-              "type": "IntEditor"
+              "id": "20065",
+              "type": "StringEditor"
             },
-            "field": "Weight",
+            "field": "Height",
             "formatter": {
-              "id": "20422",
-              "type": "NumberFormatter"
+              "id": "20064",
+              "type": "StringFormatter"
             },
-            "title": "Weight"
+            "title": "Height"
           },
-          "id": "20424",
+          "id": "20066",
           "type": "TableColumn"
         },
         {
           "attributes": {},
-          "id": "20427",
-          "type": "StringFormatter"
-        },
-        {
-          "attributes": {},
-          "id": "20435",
+          "id": "20072",
           "type": "UnionRenderers"
         },
         {
           "attributes": {},
-          "id": "20418",
+          "id": "20059",
+          "type": "NumberFormatter"
+        },
+        {
+          "attributes": {
+            "source": {
+              "id": "20052",
+              "type": "ColumnDataSource"
+            }
+          },
+          "id": "20070",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {},
+          "id": "20054",
+          "type": "NumberFormatter"
+        },
+        {
+          "attributes": {},
+          "id": "20055",
           "type": "IntEditor"
         },
         {
           "attributes": {
             "editor": {
-              "id": "20418",
+              "id": "20055",
               "type": "IntEditor"
             },
             "field": "Age",
             "formatter": {
-              "id": "20417",
+              "id": "20054",
               "type": "NumberFormatter"
             },
             "title": "Age"
           },
-          "id": "20419",
+          "id": "20056",
           "type": "TableColumn"
-        },
-        {
-          "attributes": {},
-          "id": "20423",
-          "type": "IntEditor"
-        },
-        {
-          "attributes": {},
-          "id": "20422",
-          "type": "NumberFormatter"
         },
         {
           "attributes": {
             "columns": [
               {
-                "id": "20419",
+                "id": "20056",
                 "type": "TableColumn"
               },
               {
-                "id": "20424",
+                "id": "20061",
                 "type": "TableColumn"
               },
               {
-                "id": "20429",
+                "id": "20066",
                 "type": "TableColumn"
               }
             ],
             "height": 300,
             "reorderable": false,
             "source": {
-              "id": "20416",
+              "id": "20052",
               "type": "ColumnDataSource"
             },
             "view": {
-              "id": "20433",
+              "id": "20070",
               "type": "CDSView"
             },
             "width": 400
           },
-          "id": "20432",
+          "id": "20069",
           "type": "DataTable"
         },
         {
@@ -123,67 +133,57 @@
               ]
             },
             "selected": {
-              "id": "20434",
+              "id": "20053",
               "type": "Selection"
             },
             "selection_policy": {
-              "id": "20435",
+              "id": "20072",
               "type": "UnionRenderers"
             }
           },
-          "id": "20416",
+          "id": "20052",
           "type": "ColumnDataSource"
         },
         {
           "attributes": {},
-          "id": "20417",
-          "type": "NumberFormatter"
+          "id": "20053",
+          "type": "Selection"
         },
         {
           "attributes": {
             "editor": {
-              "id": "20428",
-              "type": "StringEditor"
+              "id": "20060",
+              "type": "IntEditor"
             },
-            "field": "Height",
+            "field": "Weight",
             "formatter": {
-              "id": "20427",
-              "type": "StringFormatter"
+              "id": "20059",
+              "type": "NumberFormatter"
             },
-            "title": "Height"
+            "title": "Weight"
           },
-          "id": "20429",
+          "id": "20061",
           "type": "TableColumn"
         },
         {
           "attributes": {},
-          "id": "20428",
-          "type": "StringEditor"
-        },
-        {
-          "attributes": {
-            "source": {
-              "id": "20416",
-              "type": "ColumnDataSource"
-            }
-          },
-          "id": "20433",
-          "type": "CDSView"
+          "id": "20060",
+          "type": "IntEditor"
         }
       ],
       "root_ids": [
-        "20432"
+        "20069"
       ]
     },
     "title": "Bokeh Application",
-    "version": "1.0.0"
+    "version": "1.1.0rc1"
   }
 };
   var render_items = [
   {
     "docid": 139,
     "roots": {
-      "20432": 140
+      "20069": 140
     }
   }
 ];

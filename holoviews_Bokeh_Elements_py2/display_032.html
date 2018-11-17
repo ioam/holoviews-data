@@ -5,7 +5,7 @@
 
 
 
-  <div class="bk-root" id="112"></div>
+  <div class="bk-root" id="112" data-root-id="15281"></div>
 
 <script type="text/javascript">
   (function(root) {
@@ -16,122 +16,128 @@
     "roots": {
       "references": [
         {
-          "attributes": {
-            "data_source": {
-              "id": "15669",
-              "type": "ColumnDataSource"
-            },
-            "glyph": {
-              "id": "15672",
-              "type": "Rect"
-            },
-            "hover_glyph": null,
-            "muted_glyph": null,
-            "nonselection_glyph": {
-              "id": "15673",
-              "type": "Rect"
-            },
-            "selection_glyph": null,
-            "view": {
-              "id": "15675",
-              "type": "CDSView"
-            }
-          },
-          "id": "15674",
-          "type": "GlyphRenderer"
-        },
-        {
-          "attributes": {
-            "source": {
-              "id": "15669",
-              "type": "ColumnDataSource"
-            }
-          },
-          "id": "15675",
-          "type": "CDSView"
-        },
-        {
           "attributes": {},
-          "id": "15645",
+          "id": "15288",
           "type": "CategoricalScale"
         },
         {
           "attributes": {
-            "callback": null,
-            "data": {
-              "x": [
-                "A",
-                "A",
-                "A",
-                "A",
-                "A",
-                "B",
-                "B",
-                "B",
-                "B",
-                "B",
-                "C",
-                "C",
-                "C",
-                "C",
-                "C",
-                "D",
-                "D",
-                "D",
-                "D",
-                "D",
-                "E",
-                "E",
-                "E",
-                "E",
-                "E"
-              ],
-              "y": [
-                "a",
-                "b",
-                "c",
-                "d",
-                "e",
-                "a",
-                "b",
-                "c",
-                "d",
-                "e",
-                "a",
-                "b",
-                "c",
-                "d",
-                "e",
-                "a",
-                "b",
-                "c",
-                "d",
-                "e",
-                "a",
-                "b",
-                "c",
-                "d",
-                "e"
-              ],
-              "zvalues": {
-                "__ndarray__": "AAAAAAAA+H8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+H8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAABAAAAAAAAA+H8AAAAAAAAYQAAAAAAAACBAAAAAAAAAAAAAAAAAAAAIQAAAAAAAABhAAAAAAAAA+H8AAAAAAAAoQAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAgQAAAAAAAAChAAAAAAAAA+H8=",
-                "dtype": "float64",
-                "shape": [
-                  25
-                ]
-              }
-            },
-            "selected": {
-              "id": "15670",
-              "type": "Selection"
-            },
-            "selection_policy": {
-              "id": "15686",
-              "type": "UnionRenderers"
+            "dimension": 1,
+            "ticker": {
+              "id": "15295",
+              "type": "CategoricalTicker"
             }
           },
-          "id": "15669",
-          "type": "ColumnDataSource"
+          "id": "15297",
+          "type": "Grid"
+        },
+        {
+          "attributes": {},
+          "id": "15286",
+          "type": "CategoricalScale"
+        },
+        {
+          "attributes": {
+            "below": [
+              {
+                "id": "15290",
+                "type": "CategoricalAxis"
+              }
+            ],
+            "center": [
+              {
+                "id": "15293",
+                "type": "Grid"
+              },
+              {
+                "id": "15297",
+                "type": "Grid"
+              }
+            ],
+            "left": [
+              {
+                "id": "15294",
+                "type": "CategoricalAxis"
+              }
+            ],
+            "margin": null,
+            "min_border_bottom": 10,
+            "min_border_left": 10,
+            "min_border_right": 10,
+            "min_border_top": 10,
+            "plot_height": null,
+            "plot_width": null,
+            "renderers": [
+              {
+                "id": "15315",
+                "type": "GlyphRenderer"
+              }
+            ],
+            "sizing_mode": "fixed",
+            "title": {
+              "id": "15282",
+              "type": "Title"
+            },
+            "toolbar": {
+              "id": "15303",
+              "type": "Toolbar"
+            },
+            "x_range": {
+              "id": "15279",
+              "type": "FactorRange"
+            },
+            "x_scale": {
+              "id": "15286",
+              "type": "CategoricalScale"
+            },
+            "y_range": {
+              "id": "15280",
+              "type": "FactorRange"
+            },
+            "y_scale": {
+              "id": "15288",
+              "type": "CategoricalScale"
+            }
+          },
+          "id": "15281",
+          "subtype": "Figure",
+          "type": "Plot"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "factors": [
+              "a",
+              "b",
+              "c",
+              "d",
+              "e"
+            ],
+            "tags": [
+              [
+                [
+                  "y",
+                  "y",
+                  null
+                ]
+              ]
+            ]
+          },
+          "id": "15280",
+          "type": "FactorRange"
+        },
+        {
+          "attributes": {
+            "text": "",
+            "text_color": {
+              "value": "black"
+            },
+            "text_font_size": {
+              "value": "12pt"
+            }
+          },
+          "id": "15282",
+          "type": "Title"
         },
         {
           "attributes": {
@@ -397,13 +403,284 @@
               "#a50026"
             ]
           },
-          "id": "15668",
+          "id": "15309",
           "type": "LinearColorMapper"
         },
         {
           "attributes": {},
-          "id": "15648",
+          "id": "15320",
+          "type": "CategoricalTickFormatter"
+        },
+        {
+          "attributes": {},
+          "id": "15300",
+          "type": "WheelZoomTool"
+        },
+        {
+          "attributes": {
+            "overlay": {
+              "id": "15330",
+              "type": "BoxAnnotation"
+            }
+          },
+          "id": "15301",
+          "type": "BoxZoomTool"
+        },
+        {
+          "attributes": {},
+          "id": "15302",
+          "type": "ResetTool"
+        },
+        {
+          "attributes": {
+            "active_drag": "auto",
+            "active_inspect": "auto",
+            "active_multi": null,
+            "active_scroll": "auto",
+            "active_tap": "auto",
+            "tools": [
+              {
+                "id": "15298",
+                "type": "SaveTool"
+              },
+              {
+                "id": "15299",
+                "type": "PanTool"
+              },
+              {
+                "id": "15300",
+                "type": "WheelZoomTool"
+              },
+              {
+                "id": "15301",
+                "type": "BoxZoomTool"
+              },
+              {
+                "id": "15302",
+                "type": "ResetTool"
+              }
+            ]
+          },
+          "id": "15303",
+          "type": "Toolbar"
+        },
+        {
+          "attributes": {
+            "source": {
+              "id": "15310",
+              "type": "ColumnDataSource"
+            }
+          },
+          "id": "15316",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {},
+          "id": "15329",
+          "type": "UnionRenderers"
+        },
+        {
+          "attributes": {},
+          "id": "15298",
+          "type": "SaveTool"
+        },
+        {
+          "attributes": {},
+          "id": "15299",
+          "type": "PanTool"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "factors": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ],
+            "tags": [
+              [
+                [
+                  "x",
+                  "x",
+                  null
+                ]
+              ]
+            ]
+          },
+          "id": "15279",
+          "type": "FactorRange"
+        },
+        {
+          "attributes": {
+            "axis_label": "y",
+            "bounds": "auto",
+            "formatter": {
+              "id": "15320",
+              "type": "CategoricalTickFormatter"
+            },
+            "major_label_orientation": "horizontal",
+            "ticker": {
+              "id": "15295",
+              "type": "CategoricalTicker"
+            }
+          },
+          "id": "15294",
+          "type": "CategoricalAxis"
+        },
+        {
+          "attributes": {},
+          "id": "15295",
           "type": "CategoricalTicker"
+        },
+        {
+          "attributes": {
+            "ticker": {
+              "id": "15291",
+              "type": "CategoricalTicker"
+            }
+          },
+          "id": "15293",
+          "type": "Grid"
+        },
+        {
+          "attributes": {
+            "axis_label": "x",
+            "bounds": "auto",
+            "formatter": {
+              "id": "15318",
+              "type": "CategoricalTickFormatter"
+            },
+            "major_label_orientation": "horizontal",
+            "ticker": {
+              "id": "15291",
+              "type": "CategoricalTicker"
+            }
+          },
+          "id": "15290",
+          "type": "CategoricalAxis"
+        },
+        {
+          "attributes": {},
+          "id": "15291",
+          "type": "CategoricalTicker"
+        },
+        {
+          "attributes": {
+            "fill_color": {
+              "field": "zvalues",
+              "transform": {
+                "id": "15309",
+                "type": "LinearColorMapper"
+              }
+            },
+            "height": {
+              "units": "data",
+              "value": 1
+            },
+            "line_alpha": {
+              "value": 0
+            },
+            "line_color": {
+              "value": "#1f77b4"
+            },
+            "width": {
+              "units": "data",
+              "value": 1
+            },
+            "x": {
+              "field": "x"
+            },
+            "y": {
+              "field": "y"
+            }
+          },
+          "id": "15313",
+          "type": "Rect"
+        },
+        {
+          "attributes": {},
+          "id": "15311",
+          "type": "Selection"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "data": {
+              "x": [
+                "A",
+                "A",
+                "A",
+                "A",
+                "A",
+                "B",
+                "B",
+                "B",
+                "B",
+                "B",
+                "C",
+                "C",
+                "C",
+                "C",
+                "C",
+                "D",
+                "D",
+                "D",
+                "D",
+                "D",
+                "E",
+                "E",
+                "E",
+                "E",
+                "E"
+              ],
+              "y": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "a",
+                "b",
+                "c",
+                "d",
+                "e"
+              ],
+              "zvalues": {
+                "__ndarray__": "AAAAAAAA+H8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+H8AAAAAAAAAQAAAAAAAAAhAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAABAAAAAAAAA+H8AAAAAAAAYQAAAAAAAACBAAAAAAAAAAAAAAAAAAAAIQAAAAAAAABhAAAAAAAAA+H8AAAAAAAAoQAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAgQAAAAAAAAChAAAAAAAAA+H8=",
+                "dtype": "float64",
+                "shape": [
+                  25
+                ]
+              }
+            },
+            "selected": {
+              "id": "15311",
+              "type": "Selection"
+            },
+            "selection_policy": {
+              "id": "15329",
+              "type": "UnionRenderers"
+            }
+          },
+          "id": "15310",
+          "type": "ColumnDataSource"
         },
         {
           "attributes": {
@@ -429,210 +706,37 @@
             "line_width": {
               "value": 2
             },
-            "plot": null,
             "render_mode": "css",
             "right_units": "screen",
             "top_units": "screen"
           },
-          "id": "15663",
+          "id": "15330",
           "type": "BoxAnnotation"
         },
         {
           "attributes": {
-            "axis_label": "x",
-            "bounds": "auto",
-            "formatter": {
-              "id": "15677",
-              "type": "CategoricalTickFormatter"
+            "data_source": {
+              "id": "15310",
+              "type": "ColumnDataSource"
             },
-            "major_label_orientation": "horizontal",
-            "plot": {
-              "id": "15639",
-              "subtype": "Figure",
-              "type": "Plot"
+            "glyph": {
+              "id": "15313",
+              "type": "Rect"
             },
-            "ticker": {
-              "id": "15648",
-              "type": "CategoricalTicker"
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": {
+              "id": "15314",
+              "type": "Rect"
+            },
+            "selection_glyph": null,
+            "view": {
+              "id": "15316",
+              "type": "CDSView"
             }
           },
-          "id": "15647",
-          "type": "CategoricalAxis"
-        },
-        {
-          "attributes": {
-            "active_drag": "auto",
-            "active_inspect": "auto",
-            "active_multi": null,
-            "active_scroll": "auto",
-            "active_tap": "auto",
-            "tools": [
-              {
-                "id": "15655",
-                "type": "SaveTool"
-              },
-              {
-                "id": "15656",
-                "type": "PanTool"
-              },
-              {
-                "id": "15657",
-                "type": "WheelZoomTool"
-              },
-              {
-                "id": "15658",
-                "type": "BoxZoomTool"
-              },
-              {
-                "id": "15659",
-                "type": "ResetTool"
-              }
-            ]
-          },
-          "id": "15660",
-          "type": "Toolbar"
-        },
-        {
-          "attributes": {},
-          "id": "15643",
-          "type": "CategoricalScale"
-        },
-        {
-          "attributes": {},
-          "id": "15686",
-          "type": "UnionRenderers"
-        },
-        {
-          "attributes": {
-            "plot": null,
-            "text": "",
-            "text_color": {
-              "value": "black"
-            },
-            "text_font_size": {
-              "value": "12pt"
-            }
-          },
-          "id": "15638",
-          "type": "Title"
-        },
-        {
-          "attributes": {
-            "below": [
-              {
-                "id": "15647",
-                "type": "CategoricalAxis"
-              }
-            ],
-            "left": [
-              {
-                "id": "15651",
-                "type": "CategoricalAxis"
-              }
-            ],
-            "min_border_bottom": 10,
-            "min_border_left": 10,
-            "min_border_right": 10,
-            "min_border_top": 10,
-            "plot_height": 300,
-            "plot_width": 300,
-            "renderers": [
-              {
-                "id": "15647",
-                "type": "CategoricalAxis"
-              },
-              {
-                "id": "15650",
-                "type": "Grid"
-              },
-              {
-                "id": "15651",
-                "type": "CategoricalAxis"
-              },
-              {
-                "id": "15654",
-                "type": "Grid"
-              },
-              {
-                "id": "15663",
-                "type": "BoxAnnotation"
-              },
-              {
-                "id": "15674",
-                "type": "GlyphRenderer"
-              }
-            ],
-            "title": {
-              "id": "15638",
-              "type": "Title"
-            },
-            "toolbar": {
-              "id": "15660",
-              "type": "Toolbar"
-            },
-            "x_range": {
-              "id": "15636",
-              "type": "FactorRange"
-            },
-            "x_scale": {
-              "id": "15643",
-              "type": "CategoricalScale"
-            },
-            "y_range": {
-              "id": "15637",
-              "type": "FactorRange"
-            },
-            "y_scale": {
-              "id": "15645",
-              "type": "CategoricalScale"
-            }
-          },
-          "id": "15639",
-          "subtype": "Figure",
-          "type": "Plot"
-        },
-        {
-          "attributes": {},
-          "id": "15677",
-          "type": "CategoricalTickFormatter"
-        },
-        {
-          "attributes": {},
-          "id": "15670",
-          "type": "Selection"
-        },
-        {
-          "attributes": {
-            "fill_color": {
-              "field": "zvalues",
-              "transform": {
-                "id": "15668",
-                "type": "LinearColorMapper"
-              }
-            },
-            "height": {
-              "units": "data",
-              "value": 1
-            },
-            "line_alpha": {
-              "value": 0
-            },
-            "line_color": {
-              "value": "#1f77b4"
-            },
-            "width": {
-              "units": "data",
-              "value": 1
-            },
-            "x": {
-              "field": "x"
-            },
-            "y": {
-              "field": "y"
-            }
-          },
-          "id": "15672",
-          "type": "Rect"
+          "id": "15315",
+          "type": "GlyphRenderer"
         },
         {
           "attributes": {
@@ -642,7 +746,7 @@
             "fill_color": {
               "field": "zvalues",
               "transform": {
-                "id": "15668",
+                "id": "15309",
                 "type": "LinearColorMapper"
               }
             },
@@ -667,144 +771,28 @@
               "field": "y"
             }
           },
-          "id": "15673",
+          "id": "15314",
           "type": "Rect"
         },
         {
           "attributes": {},
-          "id": "15679",
+          "id": "15318",
           "type": "CategoricalTickFormatter"
-        },
-        {
-          "attributes": {
-            "callback": null,
-            "factors": [
-              "A",
-              "B",
-              "C",
-              "D",
-              "E"
-            ]
-          },
-          "id": "15636",
-          "type": "FactorRange"
-        },
-        {
-          "attributes": {
-            "callback": null,
-            "factors": [
-              "a",
-              "b",
-              "c",
-              "d",
-              "e"
-            ]
-          },
-          "id": "15637",
-          "type": "FactorRange"
-        },
-        {
-          "attributes": {
-            "overlay": {
-              "id": "15663",
-              "type": "BoxAnnotation"
-            }
-          },
-          "id": "15658",
-          "type": "BoxZoomTool"
-        },
-        {
-          "attributes": {},
-          "id": "15659",
-          "type": "ResetTool"
-        },
-        {
-          "attributes": {},
-          "id": "15656",
-          "type": "PanTool"
-        },
-        {
-          "attributes": {},
-          "id": "15657",
-          "type": "WheelZoomTool"
-        },
-        {
-          "attributes": {
-            "dimension": 1,
-            "plot": {
-              "id": "15639",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "15652",
-              "type": "CategoricalTicker"
-            }
-          },
-          "id": "15654",
-          "type": "Grid"
-        },
-        {
-          "attributes": {},
-          "id": "15655",
-          "type": "SaveTool"
-        },
-        {
-          "attributes": {},
-          "id": "15652",
-          "type": "CategoricalTicker"
-        },
-        {
-          "attributes": {
-            "plot": {
-              "id": "15639",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "15648",
-              "type": "CategoricalTicker"
-            }
-          },
-          "id": "15650",
-          "type": "Grid"
-        },
-        {
-          "attributes": {
-            "axis_label": "y",
-            "bounds": "auto",
-            "formatter": {
-              "id": "15679",
-              "type": "CategoricalTickFormatter"
-            },
-            "major_label_orientation": "horizontal",
-            "plot": {
-              "id": "15639",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "15652",
-              "type": "CategoricalTicker"
-            }
-          },
-          "id": "15651",
-          "type": "CategoricalAxis"
         }
       ],
       "root_ids": [
-        "15639"
+        "15281"
       ]
     },
     "title": "Bokeh Application",
-    "version": "1.0.0"
+    "version": "1.1.0rc1"
   }
 };
   var render_items = [
   {
     "docid": 111,
     "roots": {
-      "15639": 112
+      "15281": 112
     }
   }
 ];

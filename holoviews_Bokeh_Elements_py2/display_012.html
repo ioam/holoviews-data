@@ -5,7 +5,7 @@
 
 
 
-  <div class="bk-root" id="48"></div>
+  <div class="bk-root" id="48" data-root-id="6658"></div>
 
 <script type="text/javascript">
   (function(root) {
@@ -16,16 +16,198 @@
     "roots": {
       "references": [
         {
+          "attributes": {},
+          "id": "6743",
+          "type": "UnionRenderers"
+        },
+        {
+          "attributes": {
+            "source": {
+              "id": "6699",
+              "type": "ColumnDataSource"
+            }
+          },
+          "id": "6704",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
+            "x0": {
+              "field": "y0"
+            },
+            "x1": {
+              "field": "y1"
+            },
+            "y0": {
+              "field": "x0"
+            },
+            "y1": {
+              "field": "x1"
+            }
+          },
+          "id": "6719",
+          "type": "Segment"
+        },
+        {
+          "attributes": {
+            "data_source": {
+              "id": "6705",
+              "type": "ColumnDataSource"
+            },
+            "glyph": {
+              "id": "6707",
+              "type": "Segment"
+            },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": {
+              "id": "6708",
+              "type": "Segment"
+            },
+            "selection_glyph": null,
+            "view": {
+              "id": "6710",
+              "type": "CDSView"
+            }
+          },
+          "id": "6709",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "source": {
+              "id": "6717",
+              "type": "ColumnDataSource"
+            }
+          },
+          "id": "6722",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {},
+          "id": "6747",
+          "type": "UnionRenderers"
+        },
+        {
+          "attributes": {},
+          "id": "6746",
+          "type": "Selection"
+        },
+        {
+          "attributes": {},
+          "id": "6741",
+          "type": "UnionRenderers"
+        },
+        {
+          "attributes": {},
+          "id": "6740",
+          "type": "Selection"
+        },
+        {
+          "attributes": {
+            "x0": {
+              "field": "y0"
+            },
+            "x1": {
+              "field": "y1"
+            },
+            "y0": {
+              "field": "x0"
+            },
+            "y1": {
+              "field": "x1"
+            }
+          },
+          "id": "6725",
+          "type": "Segment"
+        },
+        {
+          "attributes": {},
+          "id": "6742",
+          "type": "Selection"
+        },
+        {
+          "attributes": {
+            "fill_color": {
+              "value": "lightgray"
+            },
+            "height": {
+              "value": 0.7
+            },
+            "left": {
+              "field": "top"
+            },
+            "right": {
+              "field": "bottom"
+            },
+            "y": {
+              "field": "index"
+            }
+          },
+          "id": "6701",
+          "type": "HBar"
+        },
+        {
+          "attributes": {},
+          "id": "6729",
+          "type": "BasicTickFormatter"
+        },
+        {
+          "attributes": {
+            "source": {
+              "id": "6723",
+              "type": "ColumnDataSource"
+            }
+          },
+          "id": "6728",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {},
+          "id": "6749",
+          "type": "UnionRenderers"
+        },
+        {
+          "attributes": {},
+          "id": "6748",
+          "type": "Selection"
+        },
+        {
+          "attributes": {
+            "x0": {
+              "field": "y0"
+            },
+            "x1": {
+              "field": "y1"
+            },
+            "y0": {
+              "field": "x0"
+            },
+            "y1": {
+              "field": "x1"
+            }
+          },
+          "id": "6707",
+          "type": "Segment"
+        },
+        {
+          "attributes": {},
+          "id": "6668",
+          "type": "BasicTicker"
+        },
+        {
           "attributes": {
             "fill_alpha": {
               "value": 0.1
             },
             "fill_color": {
-              "value": "black"
+              "value": "lightgray"
             },
             "height": {
-              "units": "data",
-              "value": 0.2
+              "value": 0.7
+            },
+            "left": {
+              "field": "top"
             },
             "line_alpha": {
               "value": 0.1
@@ -33,38 +215,72 @@
             "line_color": {
               "value": "black"
             },
-            "width": {
-              "units": "data",
-              "value": 0.001
-            },
-            "x": {
-              "field": "Value"
+            "right": {
+              "field": "bottom"
             },
             "y": {
               "field": "index"
             }
           },
-          "id": "6751",
-          "type": "Rect"
+          "id": "6702",
+          "type": "HBar"
+        },
+        {
+          "attributes": {
+            "line_alpha": {
+              "value": 0.1
+            },
+            "line_color": {
+              "value": "black"
+            },
+            "x0": {
+              "field": "y0"
+            },
+            "x1": {
+              "field": "y1"
+            },
+            "y0": {
+              "field": "x0"
+            },
+            "y1": {
+              "field": "x1"
+            }
+          },
+          "id": "6708",
+          "type": "Segment"
         },
         {
           "attributes": {},
-          "id": "6718",
-          "type": "WheelZoomTool"
+          "id": "6663",
+          "type": "LinearScale"
+        },
+        {
+          "attributes": {
+            "axis_label": "Value",
+            "bounds": "auto",
+            "formatter": {
+              "id": "6729",
+              "type": "BasicTickFormatter"
+            },
+            "major_label_orientation": "horizontal",
+            "ticker": {
+              "id": "6668",
+              "type": "BasicTicker"
+            }
+          },
+          "id": "6667",
+          "type": "LinearAxis"
+        },
+        {
+          "attributes": {},
+          "id": "6665",
+          "type": "CategoricalScale"
         },
         {
           "attributes": {
             "fill_color": {
               "value": "black"
             },
-            "height": {
-              "units": "data",
-              "value": 0.2
-            },
-            "width": {
-              "units": "data",
-              "value": 0.001
-            },
             "x": {
               "field": "Value"
             },
@@ -72,8 +288,1009 @@
               "field": "index"
             }
           },
-          "id": "6756",
-          "type": "Rect"
+          "id": "6689",
+          "type": "Circle"
+        },
+        {
+          "attributes": {
+            "data_source": {
+              "id": "6699",
+              "type": "ColumnDataSource"
+            },
+            "glyph": {
+              "id": "6701",
+              "type": "HBar"
+            },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": {
+              "id": "6702",
+              "type": "HBar"
+            },
+            "selection_glyph": null,
+            "view": {
+              "id": "6704",
+              "type": "CDSView"
+            }
+          },
+          "id": "6703",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {},
+          "id": "6680",
+          "type": "ResetTool"
+        },
+        {
+          "attributes": {
+            "active_drag": "auto",
+            "active_inspect": "auto",
+            "active_multi": null,
+            "active_scroll": "auto",
+            "active_tap": "auto",
+            "tools": [
+              {
+                "id": "6676",
+                "type": "SaveTool"
+              },
+              {
+                "id": "6677",
+                "type": "PanTool"
+              },
+              {
+                "id": "6678",
+                "type": "WheelZoomTool"
+              },
+              {
+                "id": "6679",
+                "type": "BoxZoomTool"
+              },
+              {
+                "id": "6680",
+                "type": "ResetTool"
+              }
+            ]
+          },
+          "id": "6681",
+          "type": "Toolbar"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "data": {
+              "Value": {
+                "__ndarray__": "Fnzj8LGDCkASZgBhjUv5vw==",
+                "dtype": "float64",
+                "shape": [
+                  2
+                ]
+              },
+              "index": [
+                [
+                  "B",
+                  "2"
+                ],
+                [
+                  "B",
+                  "3"
+                ]
+              ]
+            },
+            "selected": {
+              "id": "6740",
+              "type": "Selection"
+            },
+            "selection_policy": {
+              "id": "6741",
+              "type": "UnionRenderers"
+            }
+          },
+          "id": "6687",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "line_alpha": {
+              "value": 0.1
+            },
+            "line_color": {
+              "value": "black"
+            },
+            "x0": {
+              "field": "y0"
+            },
+            "x1": {
+              "field": "y1"
+            },
+            "y0": {
+              "field": "x0"
+            },
+            "y1": {
+              "field": "x1"
+            }
+          },
+          "id": "6720",
+          "type": "Segment"
+        },
+        {
+          "attributes": {},
+          "id": "6745",
+          "type": "UnionRenderers"
+        },
+        {
+          "attributes": {},
+          "id": "6732",
+          "type": "CategoricalTickFormatter"
+        },
+        {
+          "attributes": {
+            "dimension": 1,
+            "ticker": {
+              "id": "6673",
+              "type": "CategoricalTicker"
+            }
+          },
+          "id": "6675",
+          "type": "Grid"
+        },
+        {
+          "attributes": {},
+          "id": "6677",
+          "type": "PanTool"
+        },
+        {
+          "attributes": {},
+          "id": "6676",
+          "type": "SaveTool"
+        },
+        {
+          "attributes": {
+            "ticker": {
+              "id": "6668",
+              "type": "BasicTicker"
+            }
+          },
+          "id": "6671",
+          "type": "Grid"
+        },
+        {
+          "attributes": {},
+          "id": "6673",
+          "type": "CategoricalTicker"
+        },
+        {
+          "attributes": {
+            "axis_label": "Group, Category",
+            "bounds": "auto",
+            "formatter": {
+              "id": "6732",
+              "type": "CategoricalTickFormatter"
+            },
+            "major_label_orientation": "horizontal",
+            "ticker": {
+              "id": "6673",
+              "type": "CategoricalTicker"
+            }
+          },
+          "id": "6672",
+          "type": "CategoricalAxis"
+        },
+        {
+          "attributes": {
+            "source": {
+              "id": "6711",
+              "type": "ColumnDataSource"
+            }
+          },
+          "id": "6716",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "data": {
+              "x0": [
+                [
+                  "A",
+                  "0",
+                  -0.2
+                ],
+                [
+                  "A",
+                  "1",
+                  -0.2
+                ],
+                [
+                  "A",
+                  "2",
+                  -0.2
+                ],
+                [
+                  "A",
+                  "3",
+                  -0.2
+                ],
+                [
+                  "A",
+                  "4",
+                  -0.2
+                ],
+                [
+                  "B",
+                  "0",
+                  -0.2
+                ],
+                [
+                  "B",
+                  "1",
+                  -0.2
+                ],
+                [
+                  "B",
+                  "2",
+                  -0.2
+                ],
+                [
+                  "B",
+                  "3",
+                  -0.2
+                ],
+                [
+                  "B",
+                  "4",
+                  -0.2
+                ],
+                [
+                  "C",
+                  "0",
+                  -0.2
+                ],
+                [
+                  "C",
+                  "1",
+                  -0.2
+                ],
+                [
+                  "C",
+                  "2",
+                  -0.2
+                ],
+                [
+                  "C",
+                  "3",
+                  -0.2
+                ],
+                [
+                  "C",
+                  "4",
+                  -0.2
+                ]
+              ],
+              "x1": [
+                [
+                  "A",
+                  "0",
+                  0.2
+                ],
+                [
+                  "A",
+                  "1",
+                  0.2
+                ],
+                [
+                  "A",
+                  "2",
+                  0.2
+                ],
+                [
+                  "A",
+                  "3",
+                  0.2
+                ],
+                [
+                  "A",
+                  "4",
+                  0.2
+                ],
+                [
+                  "B",
+                  "0",
+                  0.2
+                ],
+                [
+                  "B",
+                  "1",
+                  0.2
+                ],
+                [
+                  "B",
+                  "2",
+                  0.2
+                ],
+                [
+                  "B",
+                  "3",
+                  0.2
+                ],
+                [
+                  "B",
+                  "4",
+                  0.2
+                ],
+                [
+                  "C",
+                  "0",
+                  0.2
+                ],
+                [
+                  "C",
+                  "1",
+                  0.2
+                ],
+                [
+                  "C",
+                  "2",
+                  0.2
+                ],
+                [
+                  "C",
+                  "3",
+                  0.2
+                ],
+                [
+                  "C",
+                  "4",
+                  0.2
+                ]
+              ],
+              "y0": [
+                -1.8834238307500453,
+                -1.0259682963524803,
+                -1.2586465871859873,
+                -1.9557671283697031,
+                -0.9536581161274191,
+                -1.103328259880154,
+                -1.483316608445911,
+                -1.7123465710858863,
+                -1.4991514281209424,
+                -2.2107916395785647,
+                -1.5606012270773397,
+                -1.897871427616133,
+                -1.0442579211637901,
+                -1.1692757971880354,
+                -1.100552311194593
+              ],
+              "y1": [
+                -1.8834238307500453,
+                -1.0259682963524803,
+                -1.2586465871859873,
+                -1.9557671283697031,
+                -0.9536581161274191,
+                -1.103328259880154,
+                -1.483316608445911,
+                -1.7123465710858863,
+                -1.4991514281209424,
+                -2.2107916395785647,
+                -1.5606012270773397,
+                -1.897871427616133,
+                -1.0442579211637901,
+                -1.1692757971880354,
+                -1.100552311194593
+              ]
+            },
+            "selected": {
+              "id": "6750",
+              "type": "Selection"
+            },
+            "selection_policy": {
+              "id": "6751",
+              "type": "UnionRenderers"
+            }
+          },
+          "id": "6717",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "line_alpha": {
+              "value": 0.1
+            },
+            "line_color": {
+              "value": "black"
+            },
+            "x0": {
+              "field": "y0"
+            },
+            "x1": {
+              "field": "y1"
+            },
+            "y0": {
+              "field": "x0"
+            },
+            "y1": {
+              "field": "x1"
+            }
+          },
+          "id": "6714",
+          "type": "Segment"
+        },
+        {
+          "attributes": {
+            "data_source": {
+              "id": "6711",
+              "type": "ColumnDataSource"
+            },
+            "glyph": {
+              "id": "6713",
+              "type": "Segment"
+            },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": {
+              "id": "6714",
+              "type": "Segment"
+            },
+            "selection_glyph": null,
+            "view": {
+              "id": "6716",
+              "type": "CDSView"
+            }
+          },
+          "id": "6715",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "data_source": {
+              "id": "6723",
+              "type": "ColumnDataSource"
+            },
+            "glyph": {
+              "id": "6725",
+              "type": "Segment"
+            },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": {
+              "id": "6726",
+              "type": "Segment"
+            },
+            "selection_glyph": null,
+            "view": {
+              "id": "6728",
+              "type": "CDSView"
+            }
+          },
+          "id": "6727",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {},
+          "id": "6678",
+          "type": "WheelZoomTool"
+        },
+        {
+          "attributes": {
+            "source": {
+              "id": "6705",
+              "type": "ColumnDataSource"
+            }
+          },
+          "id": "6710",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "data": {
+              "x0": [
+                [
+                  "A",
+                  "0"
+                ],
+                [
+                  "A",
+                  "1"
+                ],
+                [
+                  "A",
+                  "2"
+                ],
+                [
+                  "A",
+                  "3"
+                ],
+                [
+                  "A",
+                  "4"
+                ],
+                [
+                  "B",
+                  "0"
+                ],
+                [
+                  "B",
+                  "1"
+                ],
+                [
+                  "B",
+                  "2"
+                ],
+                [
+                  "B",
+                  "3"
+                ],
+                [
+                  "B",
+                  "4"
+                ],
+                [
+                  "C",
+                  "0"
+                ],
+                [
+                  "C",
+                  "1"
+                ],
+                [
+                  "C",
+                  "2"
+                ],
+                [
+                  "C",
+                  "3"
+                ],
+                [
+                  "C",
+                  "4"
+                ]
+              ],
+              "x1": [
+                [
+                  "A",
+                  "0"
+                ],
+                [
+                  "A",
+                  "1"
+                ],
+                [
+                  "A",
+                  "2"
+                ],
+                [
+                  "A",
+                  "3"
+                ],
+                [
+                  "A",
+                  "4"
+                ],
+                [
+                  "B",
+                  "0"
+                ],
+                [
+                  "B",
+                  "1"
+                ],
+                [
+                  "B",
+                  "2"
+                ],
+                [
+                  "B",
+                  "3"
+                ],
+                [
+                  "B",
+                  "4"
+                ],
+                [
+                  "C",
+                  "0"
+                ],
+                [
+                  "C",
+                  "1"
+                ],
+                [
+                  "C",
+                  "2"
+                ],
+                [
+                  "C",
+                  "3"
+                ],
+                [
+                  "C",
+                  "4"
+                ]
+              ],
+              "y0": {
+                "__ndarray__": "eEHZBoEi/r9dEXm7XWrwvyf5kppqI/S/DAnveNJK/7+soYoGXoTuv28Bj4g7p/G/oTguMqq797+4tKOExWX7v49/ODWG/Pe/zBTyhrOvAcB2UAb+OPj4v2j8GW6uXf6/fsw/y0e18L/A1M6JWrXyv0vjgb3cm/G/",
+                "dtype": "float64",
+                "shape": [
+                  15
+                ]
+              },
+              "y1": {
+                "__ndarray__": "+98lfDSQ47/i9cHwvuGiP+ISWCkAsdm/w9hsAoAw3L/fMkhzwkbov5v9E46wsu+/sAUPOB3O8r90zq3PYFbxv3vJSOnHbME/aeF5EQF36r+2CpLlKTbxvzdhDDoTg+q/ivB/OoxW1r/8lzAZrgHmv5vwB9okadW/",
+                "dtype": "float64",
+                "shape": [
+                  15
+                ]
+              }
+            },
+            "selected": {
+              "id": "6748",
+              "type": "Selection"
+            },
+            "selection_policy": {
+              "id": "6749",
+              "type": "UnionRenderers"
+            }
+          },
+          "id": "6711",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {},
+          "id": "6744",
+          "type": "Selection"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "data": {
+              "x0": [
+                [
+                  "A",
+                  "0",
+                  -0.2
+                ],
+                [
+                  "A",
+                  "1",
+                  -0.2
+                ],
+                [
+                  "A",
+                  "2",
+                  -0.2
+                ],
+                [
+                  "A",
+                  "3",
+                  -0.2
+                ],
+                [
+                  "A",
+                  "4",
+                  -0.2
+                ],
+                [
+                  "B",
+                  "0",
+                  -0.2
+                ],
+                [
+                  "B",
+                  "1",
+                  -0.2
+                ],
+                [
+                  "B",
+                  "2",
+                  -0.2
+                ],
+                [
+                  "B",
+                  "3",
+                  -0.2
+                ],
+                [
+                  "B",
+                  "4",
+                  -0.2
+                ],
+                [
+                  "C",
+                  "0",
+                  -0.2
+                ],
+                [
+                  "C",
+                  "1",
+                  -0.2
+                ],
+                [
+                  "C",
+                  "2",
+                  -0.2
+                ],
+                [
+                  "C",
+                  "3",
+                  -0.2
+                ],
+                [
+                  "C",
+                  "4",
+                  -0.2
+                ]
+              ],
+              "x1": [
+                [
+                  "A",
+                  "0",
+                  0.2
+                ],
+                [
+                  "A",
+                  "1",
+                  0.2
+                ],
+                [
+                  "A",
+                  "2",
+                  0.2
+                ],
+                [
+                  "A",
+                  "3",
+                  0.2
+                ],
+                [
+                  "A",
+                  "4",
+                  0.2
+                ],
+                [
+                  "B",
+                  "0",
+                  0.2
+                ],
+                [
+                  "B",
+                  "1",
+                  0.2
+                ],
+                [
+                  "B",
+                  "2",
+                  0.2
+                ],
+                [
+                  "B",
+                  "3",
+                  0.2
+                ],
+                [
+                  "B",
+                  "4",
+                  0.2
+                ],
+                [
+                  "C",
+                  "0",
+                  0.2
+                ],
+                [
+                  "C",
+                  "1",
+                  0.2
+                ],
+                [
+                  "C",
+                  "2",
+                  0.2
+                ],
+                [
+                  "C",
+                  "3",
+                  0.2
+                ],
+                [
+                  "C",
+                  "4",
+                  0.2
+                ]
+              ],
+              "y0": [
+                1.7676827758698883,
+                2.193763152697993,
+                0.9606248032998537,
+                1.6680252708825845,
+                1.1932525791617592,
+                0.1359403752325965,
+                1.8479090566185066,
+                2.626376248947506,
+                1.869507556296726,
+                0.8813011325194829,
+                1.8313620810185751,
+                1.5881611452455604,
+                0.5795433466949741,
+                2.0896488748620836,
+                1.6291119733034929
+              ],
+              "y1": [
+                1.7676827758698883,
+                2.193763152697993,
+                0.9606248032998537,
+                1.6680252708825845,
+                1.1932525791617592,
+                0.1359403752325965,
+                1.8479090566185066,
+                2.626376248947506,
+                1.869507556296726,
+                0.8813011325194829,
+                1.8313620810185751,
+                1.5881611452455604,
+                0.5795433466949741,
+                2.0896488748620836,
+                1.6291119733034929
+              ]
+            },
+            "selected": {
+              "id": "6752",
+              "type": "Selection"
+            },
+            "selection_policy": {
+              "id": "6753",
+              "type": "UnionRenderers"
+            }
+          },
+          "id": "6723",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "text": "",
+            "text_color": {
+              "value": "black"
+            },
+            "text_font_size": {
+              "value": "12pt"
+            }
+          },
+          "id": "6659",
+          "type": "Title"
+        },
+        {
+          "attributes": {
+            "below": [
+              {
+                "id": "6667",
+                "type": "LinearAxis"
+              }
+            ],
+            "center": [
+              {
+                "id": "6671",
+                "type": "Grid"
+              },
+              {
+                "id": "6675",
+                "type": "Grid"
+              }
+            ],
+            "left": [
+              {
+                "id": "6672",
+                "type": "CategoricalAxis"
+              }
+            ],
+            "margin": null,
+            "min_border_bottom": 10,
+            "min_border_left": 10,
+            "min_border_right": 10,
+            "min_border_top": 10,
+            "plot_height": 300,
+            "renderers": [
+              {
+                "id": "6691",
+                "type": "GlyphRenderer"
+              },
+              {
+                "id": "6697",
+                "type": "GlyphRenderer"
+              },
+              {
+                "id": "6703",
+                "type": "GlyphRenderer"
+              },
+              {
+                "id": "6709",
+                "type": "GlyphRenderer"
+              },
+              {
+                "id": "6715",
+                "type": "GlyphRenderer"
+              },
+              {
+                "id": "6721",
+                "type": "GlyphRenderer"
+              },
+              {
+                "id": "6727",
+                "type": "GlyphRenderer"
+              }
+            ],
+            "sizing_mode": "fixed",
+            "title": {
+              "id": "6659",
+              "type": "Title"
+            },
+            "toolbar": {
+              "id": "6681",
+              "type": "Toolbar"
+            },
+            "x_range": {
+              "id": "6656",
+              "type": "Range1d"
+            },
+            "x_scale": {
+              "id": "6663",
+              "type": "LinearScale"
+            },
+            "y_range": {
+              "id": "6657",
+              "type": "FactorRange"
+            },
+            "y_scale": {
+              "id": "6665",
+              "type": "CategoricalScale"
+            }
+          },
+          "id": "6658",
+          "subtype": "Figure",
+          "type": "Plot"
+        },
+        {
+          "attributes": {},
+          "id": "6752",
+          "type": "Selection"
+        },
+        {
+          "attributes": {},
+          "id": "6753",
+          "type": "UnionRenderers"
+        },
+        {
+          "attributes": {},
+          "id": "6750",
+          "type": "Selection"
+        },
+        {
+          "attributes": {},
+          "id": "6751",
+          "type": "UnionRenderers"
+        },
+        {
+          "attributes": {
+            "data_source": {
+              "id": "6717",
+              "type": "ColumnDataSource"
+            },
+            "glyph": {
+              "id": "6719",
+              "type": "Segment"
+            },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": {
+              "id": "6720",
+              "type": "Segment"
+            },
+            "selection_glyph": null,
+            "view": {
+              "id": "6722",
+              "type": "CDSView"
+            }
+          },
+          "id": "6721",
+          "type": "GlyphRenderer"
         },
         {
           "attributes": {
@@ -99,243 +1316,18 @@
             "line_width": {
               "value": 2
             },
-            "plot": null,
             "render_mode": "css",
             "right_units": "screen",
             "top_units": "screen"
           },
-          "id": "6724",
+          "id": "6754",
           "type": "BoxAnnotation"
         },
         {
-          "attributes": {},
-          "id": "6716",
-          "type": "SaveTool"
-        },
-        {
-          "attributes": {
-            "source": {
-              "id": "6766",
-              "type": "ColumnDataSource"
-            }
-          },
-          "id": "6771",
-          "type": "CDSView"
-        },
-        {
-          "attributes": {
-            "fill_alpha": {
-              "value": 0.1
-            },
-            "fill_color": {
-              "field": "index",
-              "transform": {
-                "id": "6729",
-                "type": "CategoricalColorMapper"
-              }
-            },
-            "height": {
-              "value": 0.7
-            },
-            "left": {
-              "field": "top"
-            },
-            "line_alpha": {
-              "value": 0.1
-            },
-            "line_color": {
-              "value": "black"
-            },
-            "right": {
-              "field": "bottom"
-            },
-            "y": {
-              "field": "index"
-            }
-          },
-          "id": "6745",
-          "type": "HBar"
-        },
-        {
-          "attributes": {},
-          "id": "6708",
-          "type": "BasicTicker"
-        },
-        {
-          "attributes": {
-            "source": {
-              "id": "6742",
-              "type": "ColumnDataSource"
-            }
-          },
-          "id": "6747",
-          "type": "CDSView"
-        },
-        {
-          "attributes": {
-            "data_source": {
-              "id": "6742",
-              "type": "ColumnDataSource"
-            },
-            "glyph": {
-              "id": "6744",
-              "type": "HBar"
-            },
-            "hover_glyph": null,
-            "muted_glyph": null,
-            "nonselection_glyph": {
-              "id": "6745",
-              "type": "HBar"
-            },
-            "selection_glyph": null,
-            "view": {
-              "id": "6747",
-              "type": "CDSView"
-            }
-          },
-          "id": "6746",
-          "type": "GlyphRenderer"
-        },
-        {
-          "attributes": {
-            "source": {
-              "id": "6736",
-              "type": "ColumnDataSource"
-            }
-          },
-          "id": "6741",
-          "type": "CDSView"
-        },
-        {
           "attributes": {
             "callback": null,
             "data": {
-              "Value": {
-                "__ndarray__": "yQQBvG1I/D/XDyCy04wBQBrHPDpwve4/0nk1RDuw+j/m4DUEkBfzP3g86oR+ZsE/B4pCFgmR/T/7wwGN0QIFQIa1XsGA6f0/hyrDbp4z7D+fv1FTQk39P664Oakbafk/72oVfZ6L4j8sP03UmbcAQLjEbbfXEPo/",
-                "dtype": "float64",
-                "shape": [
-                  15
-                ]
-              },
-              "index": [
-                [
-                  "A",
-                  "0"
-                ],
-                [
-                  "A",
-                  "1"
-                ],
-                [
-                  "A",
-                  "2"
-                ],
-                [
-                  "A",
-                  "3"
-                ],
-                [
-                  "A",
-                  "4"
-                ],
-                [
-                  "B",
-                  "0"
-                ],
-                [
-                  "B",
-                  "1"
-                ],
-                [
-                  "B",
-                  "2"
-                ],
-                [
-                  "B",
-                  "3"
-                ],
-                [
-                  "B",
-                  "4"
-                ],
-                [
-                  "C",
-                  "0"
-                ],
-                [
-                  "C",
-                  "1"
-                ],
-                [
-                  "C",
-                  "2"
-                ],
-                [
-                  "C",
-                  "3"
-                ],
-                [
-                  "C",
-                  "4"
-                ]
-              ]
-            },
-            "selected": {
-              "id": "6789",
-              "type": "Selection"
-            },
-            "selection_policy": {
-              "id": "6790",
-              "type": "UnionRenderers"
-            }
-          },
-          "id": "6754",
-          "type": "ColumnDataSource"
-        },
-        {
-          "attributes": {
-            "fill_alpha": {
-              "value": 0.1
-            },
-            "fill_color": {
-              "value": "black"
-            },
-            "height": {
-              "units": "data",
-              "value": 0.2
-            },
-            "line_alpha": {
-              "value": 0.1
-            },
-            "line_color": {
-              "value": "black"
-            },
-            "width": {
-              "units": "data",
-              "value": 0.001
-            },
-            "x": {
-              "field": "Value"
-            },
-            "y": {
-              "field": "index"
-            }
-          },
-          "id": "6757",
-          "type": "Rect"
-        },
-        {
-          "attributes": {
-            "callback": null,
-            "data": {
-              "bottom": {
-                "__ndarray__": "oKwf/bue0D9KyCnznAzgPzeYMjrXwLM/dlXnTTgq2T+VP5WAURbfP4LHDfoxROG/QHYvYgFqwz8iTVMaJ07Lv2gQ0VligdA/38K052TP0L/NIOoh7j2BPxA5qjLU7dq/A384AhZKxL/Ck/P6WGq7Px4+TrnrOLw/",
-                "dtype": "float64",
-                "shape": [
-                  15
-                ]
-              },
-              "index": [
+              "x0": [
                 [
                   "A",
                   "0"
@@ -397,8 +1389,77 @@
                   "4"
                 ]
               ],
-              "top": {
-                "__ndarray__": "+98lfDSQ47/i9cHwvuGiP+ISWCkAsdm/w9hsAoAw3L/fMkhzwkbov5v9E46wsu+/sAUPOB3O8r90zq3PYFbxv3vJSOnHbME/aeF5EQF36r+2CpLlKTbxvzdhDDoTg+q/ivB/OoxW1r/8lzAZrgHmv5vwB9okadW/",
+              "x1": [
+                [
+                  "A",
+                  "0"
+                ],
+                [
+                  "A",
+                  "1"
+                ],
+                [
+                  "A",
+                  "2"
+                ],
+                [
+                  "A",
+                  "3"
+                ],
+                [
+                  "A",
+                  "4"
+                ],
+                [
+                  "B",
+                  "0"
+                ],
+                [
+                  "B",
+                  "1"
+                ],
+                [
+                  "B",
+                  "2"
+                ],
+                [
+                  "B",
+                  "3"
+                ],
+                [
+                  "B",
+                  "4"
+                ],
+                [
+                  "C",
+                  "0"
+                ],
+                [
+                  "C",
+                  "1"
+                ],
+                [
+                  "C",
+                  "2"
+                ],
+                [
+                  "C",
+                  "3"
+                ],
+                [
+                  "C",
+                  "4"
+                ]
+              ],
+              "y0": {
+                "__ndarray__": "yQQBvG1I/D/XDyCy04wBQBrHPDpwve4/0nk1RDuw+j/m4DUEkBfzP3g86oR+ZsE/B4pCFgmR/T/7wwGN0QIFQIa1XsGA6f0/hyrDbp4z7D+fv1FTQk39P664Oakbafk/72oVfZ6L4j8sP03UmbcAQLjEbbfXEPo/",
+                "dtype": "float64",
+                "shape": [
+                  15
+                ]
+              },
+              "y1": {
+                "__ndarray__": "kqw27k1f7j/O/a58b9jzP6z/TGX3MuE/09jW/Mbv6T+jylSlvUrqP0EC6v51rcy/Y4nWTHon3j/atpedHKDZPwN/vx4Dn/M/HM4mif594D9FaKmrejTwP074C2nRLd8/JMRDqBrizD8l5L/imiL0P1KDR8nWzOE/",
                 "dtype": "float64",
                 "shape": [
                   15
@@ -406,29 +1467,20 @@
               }
             },
             "selected": {
-              "id": "6785",
+              "id": "6746",
               "type": "Selection"
             },
             "selection_policy": {
-              "id": "6786",
+              "id": "6747",
               "type": "UnionRenderers"
             }
           },
-          "id": "6742",
+          "id": "6705",
           "type": "ColumnDataSource"
         },
         {
           "attributes": {
-            "source": {
-              "id": "6760",
-              "type": "ColumnDataSource"
-            }
-          },
-          "id": "6765",
-          "type": "CDSView"
-        },
-        {
-          "attributes": {
+            "callback": null,
             "factors": [
               [
                 "A",
@@ -491,769 +1543,30 @@
                 "4"
               ]
             ],
-            "palette": [
-              "lightgray",
-              "lightgray",
-              "lightgray",
-              "lightgray",
-              "lightgray",
-              "lightgray",
-              "lightgray",
-              "lightgray",
-              "lightgray",
-              "lightgray",
-              "lightgray",
-              "lightgray",
-              "lightgray",
-              "lightgray",
-              "lightgray"
+            "tags": [
+              [
+                [
+                  "Group",
+                  "Group",
+                  null
+                ],
+                [
+                  "Category",
+                  "Category",
+                  null
+                ]
+              ]
             ]
           },
-          "id": "6729",
-          "type": "CategoricalColorMapper"
-        },
-        {
-          "attributes": {},
-          "id": "6705",
-          "type": "CategoricalScale"
-        },
-        {
-          "attributes": {
-            "callback": null,
-            "data": {
-              "Value": {
-                "__ndarray__": "eEHZBoEi/r9dEXm7XWrwvyf5kppqI/S/DAnveNJK/7+soYoGXoTuv28Bj4g7p/G/oTguMqq797+4tKOExWX7v49/ODWG/Pe/zBTyhrOvAcB2UAb+OPj4v2j8GW6uXf6/fsw/y0e18L/A1M6JWrXyv0vjgb3cm/G/",
-                "dtype": "float64",
-                "shape": [
-                  15
-                ]
-              },
-              "index": [
-                [
-                  "A",
-                  "0"
-                ],
-                [
-                  "A",
-                  "1"
-                ],
-                [
-                  "A",
-                  "2"
-                ],
-                [
-                  "A",
-                  "3"
-                ],
-                [
-                  "A",
-                  "4"
-                ],
-                [
-                  "B",
-                  "0"
-                ],
-                [
-                  "B",
-                  "1"
-                ],
-                [
-                  "B",
-                  "2"
-                ],
-                [
-                  "B",
-                  "3"
-                ],
-                [
-                  "B",
-                  "4"
-                ],
-                [
-                  "C",
-                  "0"
-                ],
-                [
-                  "C",
-                  "1"
-                ],
-                [
-                  "C",
-                  "2"
-                ],
-                [
-                  "C",
-                  "3"
-                ],
-                [
-                  "C",
-                  "4"
-                ]
-              ]
-            },
-            "selected": {
-              "id": "6787",
-              "type": "Selection"
-            },
-            "selection_policy": {
-              "id": "6788",
-              "type": "UnionRenderers"
-            }
-          },
-          "id": "6748",
-          "type": "ColumnDataSource"
-        },
-        {
-          "attributes": {
-            "axis_label": "Value",
-            "bounds": "auto",
-            "formatter": {
-              "id": "6772",
-              "type": "BasicTickFormatter"
-            },
-            "major_label_orientation": "horizontal",
-            "plot": {
-              "id": "6699",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "6708",
-              "type": "BasicTicker"
-            }
-          },
-          "id": "6707",
-          "type": "LinearAxis"
-        },
-        {
-          "attributes": {},
-          "id": "6781",
-          "type": "Selection"
-        },
-        {
-          "attributes": {},
-          "id": "6783",
-          "type": "Selection"
-        },
-        {
-          "attributes": {},
-          "id": "6782",
-          "type": "UnionRenderers"
-        },
-        {
-          "attributes": {},
-          "id": "6785",
-          "type": "Selection"
-        },
-        {
-          "attributes": {},
-          "id": "6784",
-          "type": "UnionRenderers"
-        },
-        {
-          "attributes": {
-            "line_alpha": {
-              "value": 0.1
-            },
-            "line_color": {
-              "value": "black"
-            },
-            "x0": {
-              "field": "y0"
-            },
-            "x1": {
-              "field": "y1"
-            },
-            "y0": {
-              "field": "x0"
-            },
-            "y1": {
-              "field": "x1"
-            }
-          },
-          "id": "6769",
-          "type": "Segment"
-        },
-        {
-          "attributes": {},
-          "id": "6786",
-          "type": "UnionRenderers"
-        },
-        {
-          "attributes": {},
-          "id": "6789",
-          "type": "Selection"
-        },
-        {
-          "attributes": {},
-          "id": "6788",
-          "type": "UnionRenderers"
-        },
-        {
-          "attributes": {
-            "callback": null,
-            "data": {
-              "x0": [
-                [
-                  "A",
-                  "0"
-                ],
-                [
-                  "A",
-                  "1"
-                ],
-                [
-                  "A",
-                  "2"
-                ],
-                [
-                  "A",
-                  "3"
-                ],
-                [
-                  "A",
-                  "4"
-                ],
-                [
-                  "B",
-                  "0"
-                ],
-                [
-                  "B",
-                  "1"
-                ],
-                [
-                  "B",
-                  "2"
-                ],
-                [
-                  "B",
-                  "3"
-                ],
-                [
-                  "B",
-                  "4"
-                ],
-                [
-                  "C",
-                  "0"
-                ],
-                [
-                  "C",
-                  "1"
-                ],
-                [
-                  "C",
-                  "2"
-                ],
-                [
-                  "C",
-                  "3"
-                ],
-                [
-                  "C",
-                  "4"
-                ]
-              ],
-              "x1": [
-                [
-                  "A",
-                  "0"
-                ],
-                [
-                  "A",
-                  "1"
-                ],
-                [
-                  "A",
-                  "2"
-                ],
-                [
-                  "A",
-                  "3"
-                ],
-                [
-                  "A",
-                  "4"
-                ],
-                [
-                  "B",
-                  "0"
-                ],
-                [
-                  "B",
-                  "1"
-                ],
-                [
-                  "B",
-                  "2"
-                ],
-                [
-                  "B",
-                  "3"
-                ],
-                [
-                  "B",
-                  "4"
-                ],
-                [
-                  "C",
-                  "0"
-                ],
-                [
-                  "C",
-                  "1"
-                ],
-                [
-                  "C",
-                  "2"
-                ],
-                [
-                  "C",
-                  "3"
-                ],
-                [
-                  "C",
-                  "4"
-                ]
-              ],
-              "y0": {
-                "__ndarray__": "eEHZBoEi/r9dEXm7XWrwvyf5kppqI/S/DAnveNJK/7+soYoGXoTuv28Bj4g7p/G/oTguMqq797+4tKOExWX7v49/ODWG/Pe/zBTyhrOvAcB2UAb+OPj4v2j8GW6uXf6/fsw/y0e18L/A1M6JWrXyv0vjgb3cm/G/",
-                "dtype": "float64",
-                "shape": [
-                  15
-                ]
-              },
-              "y1": {
-                "__ndarray__": "+98lfDSQ47/i9cHwvuGiP+ISWCkAsdm/w9hsAoAw3L/fMkhzwkbov5v9E46wsu+/sAUPOB3O8r90zq3PYFbxv3vJSOnHbME/aeF5EQF36r+2CpLlKTbxvzdhDDoTg+q/ivB/OoxW1r/8lzAZrgHmv5vwB9okadW/",
-                "dtype": "float64",
-                "shape": [
-                  15
-                ]
-              }
-            },
-            "selected": {
-              "id": "6793",
-              "type": "Selection"
-            },
-            "selection_policy": {
-              "id": "6794",
-              "type": "UnionRenderers"
-            }
-          },
-          "id": "6766",
-          "type": "ColumnDataSource"
-        },
-        {
-          "attributes": {
-            "data_source": {
-              "id": "6760",
-              "type": "ColumnDataSource"
-            },
-            "glyph": {
-              "id": "6762",
-              "type": "Segment"
-            },
-            "hover_glyph": null,
-            "muted_glyph": null,
-            "nonselection_glyph": {
-              "id": "6763",
-              "type": "Segment"
-            },
-            "selection_glyph": null,
-            "view": {
-              "id": "6765",
-              "type": "CDSView"
-            }
-          },
-          "id": "6764",
-          "type": "GlyphRenderer"
-        },
-        {
-          "attributes": {
-            "line_alpha": {
-              "value": 0.1
-            },
-            "line_color": {
-              "value": "black"
-            },
-            "x0": {
-              "field": "y0"
-            },
-            "x1": {
-              "field": "y1"
-            },
-            "y0": {
-              "field": "x0"
-            },
-            "y1": {
-              "field": "x1"
-            }
-          },
-          "id": "6763",
-          "type": "Segment"
-        },
-        {
-          "attributes": {
-            "x0": {
-              "field": "y0"
-            },
-            "x1": {
-              "field": "y1"
-            },
-            "y0": {
-              "field": "x0"
-            },
-            "y1": {
-              "field": "x1"
-            }
-          },
-          "id": "6762",
-          "type": "Segment"
-        },
-        {
-          "attributes": {
-            "fill_alpha": {
-              "value": 0.1
-            },
-            "fill_color": {
-              "field": "index",
-              "transform": {
-                "id": "6729",
-                "type": "CategoricalColorMapper"
-              }
-            },
-            "height": {
-              "value": 0.7
-            },
-            "left": {
-              "field": "top"
-            },
-            "line_alpha": {
-              "value": 0.1
-            },
-            "line_color": {
-              "value": "black"
-            },
-            "right": {
-              "field": "bottom"
-            },
-            "y": {
-              "field": "index"
-            }
-          },
-          "id": "6739",
-          "type": "HBar"
-        },
-        {
-          "attributes": {
-            "callback": null,
-            "data": {
-              "x0": [
-                [
-                  "A",
-                  "0"
-                ],
-                [
-                  "A",
-                  "1"
-                ],
-                [
-                  "A",
-                  "2"
-                ],
-                [
-                  "A",
-                  "3"
-                ],
-                [
-                  "A",
-                  "4"
-                ],
-                [
-                  "B",
-                  "0"
-                ],
-                [
-                  "B",
-                  "1"
-                ],
-                [
-                  "B",
-                  "2"
-                ],
-                [
-                  "B",
-                  "3"
-                ],
-                [
-                  "B",
-                  "4"
-                ],
-                [
-                  "C",
-                  "0"
-                ],
-                [
-                  "C",
-                  "1"
-                ],
-                [
-                  "C",
-                  "2"
-                ],
-                [
-                  "C",
-                  "3"
-                ],
-                [
-                  "C",
-                  "4"
-                ]
-              ],
-              "x1": [
-                [
-                  "A",
-                  "0"
-                ],
-                [
-                  "A",
-                  "1"
-                ],
-                [
-                  "A",
-                  "2"
-                ],
-                [
-                  "A",
-                  "3"
-                ],
-                [
-                  "A",
-                  "4"
-                ],
-                [
-                  "B",
-                  "0"
-                ],
-                [
-                  "B",
-                  "1"
-                ],
-                [
-                  "B",
-                  "2"
-                ],
-                [
-                  "B",
-                  "3"
-                ],
-                [
-                  "B",
-                  "4"
-                ],
-                [
-                  "C",
-                  "0"
-                ],
-                [
-                  "C",
-                  "1"
-                ],
-                [
-                  "C",
-                  "2"
-                ],
-                [
-                  "C",
-                  "3"
-                ],
-                [
-                  "C",
-                  "4"
-                ]
-              ],
-              "y0": {
-                "__ndarray__": "yQQBvG1I/D/XDyCy04wBQBrHPDpwve4/0nk1RDuw+j/m4DUEkBfzP3g86oR+ZsE/B4pCFgmR/T/7wwGN0QIFQIa1XsGA6f0/hyrDbp4z7D+fv1FTQk39P664Oakbafk/72oVfZ6L4j8sP03UmbcAQLjEbbfXEPo/",
-                "dtype": "float64",
-                "shape": [
-                  15
-                ]
-              },
-              "y1": {
-                "__ndarray__": "kqw27k1f7j/O/a58b9jzP6z/TGX3MuE/09jW/Mbv6T+jylSlvUrqP0EC6v51rcy/Y4nWTHon3j/atpedHKDZPwN/vx4Dn/M/HM4mif594D9FaKmrejTwP074C2nRLd8/JMRDqBrizD8l5L/imiL0P1KDR8nWzOE/",
-                "dtype": "float64",
-                "shape": [
-                  15
-                ]
-              }
-            },
-            "selected": {
-              "id": "6791",
-              "type": "Selection"
-            },
-            "selection_policy": {
-              "id": "6792",
-              "type": "UnionRenderers"
-            }
-          },
-          "id": "6760",
-          "type": "ColumnDataSource"
-        },
-        {
-          "attributes": {},
-          "id": "6703",
-          "type": "LinearScale"
-        },
-        {
-          "attributes": {},
-          "id": "6793",
-          "type": "Selection"
-        },
-        {
-          "attributes": {},
-          "id": "6720",
-          "type": "ResetTool"
-        },
-        {
-          "attributes": {
-            "data_source": {
-              "id": "6754",
-              "type": "ColumnDataSource"
-            },
-            "glyph": {
-              "id": "6756",
-              "type": "Rect"
-            },
-            "hover_glyph": null,
-            "muted_glyph": null,
-            "nonselection_glyph": {
-              "id": "6757",
-              "type": "Rect"
-            },
-            "selection_glyph": null,
-            "view": {
-              "id": "6759",
-              "type": "CDSView"
-            }
-          },
-          "id": "6758",
-          "type": "GlyphRenderer"
-        },
-        {
-          "attributes": {
-            "callback": null,
-            "data": {
-              "Value": {
-                "__ndarray__": "Fnzj8LGDCkASZgBhjUv5vw==",
-                "dtype": "float64",
-                "shape": [
-                  2
-                ]
-              },
-              "index": [
-                [
-                  "B",
-                  "2"
-                ],
-                [
-                  "B",
-                  "3"
-                ]
-              ]
-            },
-            "selected": {
-              "id": "6781",
-              "type": "Selection"
-            },
-            "selection_policy": {
-              "id": "6782",
-              "type": "UnionRenderers"
-            }
-          },
-          "id": "6730",
-          "type": "ColumnDataSource"
-        },
-        {
-          "attributes": {
-            "fill_color": {
-              "value": "black"
-            },
-            "x": {
-              "field": "Value"
-            },
-            "y": {
-              "field": "index"
-            }
-          },
-          "id": "6732",
-          "type": "Circle"
-        },
-        {
-          "attributes": {
-            "fill_alpha": {
-              "value": 0.1
-            },
-            "fill_color": {
-              "value": "black"
-            },
-            "line_alpha": {
-              "value": 0.1
-            },
-            "line_color": {
-              "value": "black"
-            },
-            "x": {
-              "field": "Value"
-            },
-            "y": {
-              "field": "index"
-            }
-          },
-          "id": "6733",
-          "type": "Circle"
-        },
-        {
-          "attributes": {
-            "data_source": {
-              "id": "6730",
-              "type": "ColumnDataSource"
-            },
-            "glyph": {
-              "id": "6732",
-              "type": "Circle"
-            },
-            "hover_glyph": null,
-            "muted_glyph": null,
-            "nonselection_glyph": {
-              "id": "6733",
-              "type": "Circle"
-            },
-            "selection_glyph": null,
-            "view": {
-              "id": "6735",
-              "type": "CDSView"
-            }
-          },
-          "id": "6734",
-          "type": "GlyphRenderer"
-        },
-        {
-          "attributes": {
-            "source": {
-              "id": "6730",
-              "type": "ColumnDataSource"
-            }
-          },
-          "id": "6735",
-          "type": "CDSView"
+          "id": "6657",
+          "type": "FactorRange"
         },
         {
           "attributes": {
             "callback": null,
             "data": {
               "bottom": {
-                "__ndarray__": "kqw27k1f7j/O/a58b9jzP6z/TGX3MuE/09jW/Mbv6T+jylSlvUrqP0EC6v51rcy/Y4nWTHon3j/atpedHKDZPwN/vx4Dn/M/HM4mif594D9FaKmrejTwP074C2nRLd8/JMRDqBrizD8l5L/imiL0P1KDR8nWzOE/",
+                "__ndarray__": "oKwf/bue0D9KyCnznAzgPzeYMjrXwLM/dlXnTTgq2T+VP5WAURbfP4LHDfoxROG/QHYvYgFqwz8iTVMaJ07Lv2gQ0VligdA/38K052TP0L/NIOoh7j2BPxA5qjLU7dq/A384AhZKxL/Ck/P6WGq7Px4+TrnrOLw/",
                 "dtype": "float64",
                 "shape": [
                   15
@@ -1322,7 +1635,7 @@
                 ]
               ],
               "top": {
-                "__ndarray__": "oKwf/bue0D9KyCnznAzgPzeYMjrXwLM/dlXnTTgq2T+VP5WAURbfP4LHDfoxROG/QHYvYgFqwz8iTVMaJ07Lv2gQ0VligdA/38K052TP0L/NIOoh7j2BPxA5qjLU7dq/A384AhZKxL/Ck/P6WGq7Px4+TrnrOLw/",
+                "__ndarray__": "+98lfDSQ47/i9cHwvuGiP+ISWCkAsdm/w9hsAoAw3L/fMkhzwkbov5v9E46wsu+/sAUPOB3O8r90zq3PYFbxv3vJSOnHbME/aeF5EQF36r+2CpLlKTbxvzdhDDoTg+q/ivB/OoxW1r/8lzAZrgHmv5vwB9okadW/",
                 "dtype": "float64",
                 "shape": [
                   15
@@ -1330,35 +1643,41 @@
               }
             },
             "selected": {
-              "id": "6783",
+              "id": "6744",
               "type": "Selection"
             },
             "selection_policy": {
-              "id": "6784",
+              "id": "6745",
               "type": "UnionRenderers"
             }
           },
-          "id": "6736",
+          "id": "6699",
           "type": "ColumnDataSource"
         },
         {
           "attributes": {
+            "source": {
+              "id": "6693",
+              "type": "ColumnDataSource"
+            }
+          },
+          "id": "6698",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
             "overlay": {
-              "id": "6724",
+              "id": "6754",
               "type": "BoxAnnotation"
             }
           },
-          "id": "6719",
+          "id": "6679",
           "type": "BoxZoomTool"
         },
         {
           "attributes": {
             "fill_color": {
-              "field": "index",
-              "transform": {
-                "id": "6729",
-                "type": "CategoricalColorMapper"
-              }
+              "value": "lightgray"
             },
             "height": {
               "value": 0.7
@@ -1373,456 +1692,8 @@
               "field": "index"
             }
           },
-          "id": "6738",
+          "id": "6695",
           "type": "HBar"
-        },
-        {
-          "attributes": {},
-          "id": "6717",
-          "type": "PanTool"
-        },
-        {
-          "attributes": {
-            "dimension": 1,
-            "plot": {
-              "id": "6699",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "6713",
-              "type": "CategoricalTicker"
-            }
-          },
-          "id": "6715",
-          "type": "Grid"
-        },
-        {
-          "attributes": {
-            "axis_label": "Group, Category",
-            "bounds": "auto",
-            "formatter": {
-              "id": "6775",
-              "type": "CategoricalTickFormatter"
-            },
-            "major_label_orientation": "horizontal",
-            "plot": {
-              "id": "6699",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "6713",
-              "type": "CategoricalTicker"
-            }
-          },
-          "id": "6712",
-          "type": "CategoricalAxis"
-        },
-        {
-          "attributes": {},
-          "id": "6713",
-          "type": "CategoricalTicker"
-        },
-        {
-          "attributes": {
-            "plot": {
-              "id": "6699",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "6708",
-              "type": "BasicTicker"
-            }
-          },
-          "id": "6711",
-          "type": "Grid"
-        },
-        {
-          "attributes": {
-            "fill_color": {
-              "field": "index",
-              "transform": {
-                "id": "6729",
-                "type": "CategoricalColorMapper"
-              }
-            },
-            "height": {
-              "value": 0.7
-            },
-            "left": {
-              "field": "top"
-            },
-            "right": {
-              "field": "bottom"
-            },
-            "y": {
-              "field": "index"
-            }
-          },
-          "id": "6744",
-          "type": "HBar"
-        },
-        {
-          "attributes": {},
-          "id": "6794",
-          "type": "UnionRenderers"
-        },
-        {
-          "attributes": {
-            "source": {
-              "id": "6754",
-              "type": "ColumnDataSource"
-            }
-          },
-          "id": "6759",
-          "type": "CDSView"
-        },
-        {
-          "attributes": {},
-          "id": "6792",
-          "type": "UnionRenderers"
-        },
-        {
-          "attributes": {},
-          "id": "6787",
-          "type": "Selection"
-        },
-        {
-          "attributes": {},
-          "id": "6790",
-          "type": "UnionRenderers"
-        },
-        {
-          "attributes": {},
-          "id": "6791",
-          "type": "Selection"
-        },
-        {
-          "attributes": {
-            "data_source": {
-              "id": "6748",
-              "type": "ColumnDataSource"
-            },
-            "glyph": {
-              "id": "6750",
-              "type": "Rect"
-            },
-            "hover_glyph": null,
-            "muted_glyph": null,
-            "nonselection_glyph": {
-              "id": "6751",
-              "type": "Rect"
-            },
-            "selection_glyph": null,
-            "view": {
-              "id": "6753",
-              "type": "CDSView"
-            }
-          },
-          "id": "6752",
-          "type": "GlyphRenderer"
-        },
-        {
-          "attributes": {
-            "source": {
-              "id": "6748",
-              "type": "ColumnDataSource"
-            }
-          },
-          "id": "6753",
-          "type": "CDSView"
-        },
-        {
-          "attributes": {
-            "fill_color": {
-              "value": "black"
-            },
-            "height": {
-              "units": "data",
-              "value": 0.2
-            },
-            "width": {
-              "units": "data",
-              "value": 0.001
-            },
-            "x": {
-              "field": "Value"
-            },
-            "y": {
-              "field": "index"
-            }
-          },
-          "id": "6750",
-          "type": "Rect"
-        },
-        {
-          "attributes": {
-            "x0": {
-              "field": "y0"
-            },
-            "x1": {
-              "field": "y1"
-            },
-            "y0": {
-              "field": "x0"
-            },
-            "y1": {
-              "field": "x1"
-            }
-          },
-          "id": "6768",
-          "type": "Segment"
-        },
-        {
-          "attributes": {
-            "data_source": {
-              "id": "6766",
-              "type": "ColumnDataSource"
-            },
-            "glyph": {
-              "id": "6768",
-              "type": "Segment"
-            },
-            "hover_glyph": null,
-            "muted_glyph": null,
-            "nonselection_glyph": {
-              "id": "6769",
-              "type": "Segment"
-            },
-            "selection_glyph": null,
-            "view": {
-              "id": "6771",
-              "type": "CDSView"
-            }
-          },
-          "id": "6770",
-          "type": "GlyphRenderer"
-        },
-        {
-          "attributes": {
-            "active_drag": "auto",
-            "active_inspect": "auto",
-            "active_multi": null,
-            "active_scroll": "auto",
-            "active_tap": "auto",
-            "tools": [
-              {
-                "id": "6716",
-                "type": "SaveTool"
-              },
-              {
-                "id": "6717",
-                "type": "PanTool"
-              },
-              {
-                "id": "6718",
-                "type": "WheelZoomTool"
-              },
-              {
-                "id": "6719",
-                "type": "BoxZoomTool"
-              },
-              {
-                "id": "6720",
-                "type": "ResetTool"
-              }
-            ]
-          },
-          "id": "6721",
-          "type": "Toolbar"
-        },
-        {
-          "attributes": {},
-          "id": "6772",
-          "type": "BasicTickFormatter"
-        },
-        {
-          "attributes": {
-            "below": [
-              {
-                "id": "6707",
-                "type": "LinearAxis"
-              }
-            ],
-            "left": [
-              {
-                "id": "6712",
-                "type": "CategoricalAxis"
-              }
-            ],
-            "min_border_bottom": 10,
-            "min_border_left": 10,
-            "min_border_right": 10,
-            "min_border_top": 10,
-            "plot_height": 300,
-            "renderers": [
-              {
-                "id": "6707",
-                "type": "LinearAxis"
-              },
-              {
-                "id": "6711",
-                "type": "Grid"
-              },
-              {
-                "id": "6712",
-                "type": "CategoricalAxis"
-              },
-              {
-                "id": "6715",
-                "type": "Grid"
-              },
-              {
-                "id": "6724",
-                "type": "BoxAnnotation"
-              },
-              {
-                "id": "6734",
-                "type": "GlyphRenderer"
-              },
-              {
-                "id": "6740",
-                "type": "GlyphRenderer"
-              },
-              {
-                "id": "6746",
-                "type": "GlyphRenderer"
-              },
-              {
-                "id": "6752",
-                "type": "GlyphRenderer"
-              },
-              {
-                "id": "6758",
-                "type": "GlyphRenderer"
-              },
-              {
-                "id": "6764",
-                "type": "GlyphRenderer"
-              },
-              {
-                "id": "6770",
-                "type": "GlyphRenderer"
-              }
-            ],
-            "title": {
-              "id": "6698",
-              "type": "Title"
-            },
-            "toolbar": {
-              "id": "6721",
-              "type": "Toolbar"
-            },
-            "x_range": {
-              "id": "6696",
-              "type": "Range1d"
-            },
-            "x_scale": {
-              "id": "6703",
-              "type": "LinearScale"
-            },
-            "y_range": {
-              "id": "6697",
-              "type": "FactorRange"
-            },
-            "y_scale": {
-              "id": "6705",
-              "type": "CategoricalScale"
-            }
-          },
-          "id": "6699",
-          "subtype": "Figure",
-          "type": "Plot"
-        },
-        {
-          "attributes": {
-            "plot": null,
-            "text": "",
-            "text_color": {
-              "value": "black"
-            },
-            "text_font_size": {
-              "value": "12pt"
-            }
-          },
-          "id": "6698",
-          "type": "Title"
-        },
-        {
-          "attributes": {},
-          "id": "6775",
-          "type": "CategoricalTickFormatter"
-        },
-        {
-          "attributes": {
-            "callback": null,
-            "factors": [
-              [
-                "A",
-                "0"
-              ],
-              [
-                "A",
-                "1"
-              ],
-              [
-                "A",
-                "2"
-              ],
-              [
-                "A",
-                "3"
-              ],
-              [
-                "A",
-                "4"
-              ],
-              [
-                "B",
-                "0"
-              ],
-              [
-                "B",
-                "1"
-              ],
-              [
-                "B",
-                "2"
-              ],
-              [
-                "B",
-                "3"
-              ],
-              [
-                "B",
-                "4"
-              ],
-              [
-                "C",
-                "0"
-              ],
-              [
-                "C",
-                "1"
-              ],
-              [
-                "C",
-                "2"
-              ],
-              [
-                "C",
-                "3"
-              ],
-              [
-                "C",
-                "4"
-              ]
-            ]
-          },
-          "id": "6697",
-          "type": "FactorRange"
         },
         {
           "attributes": {
@@ -1830,50 +1701,283 @@
             "end": 3.3143042392180275,
             "reset_end": 3.3143042392180275,
             "reset_start": -2.2107916395785647,
-            "start": -2.2107916395785647
+            "start": -2.2107916395785647,
+            "tags": [
+              [
+                [
+                  "Value",
+                  "Value",
+                  null
+                ]
+              ]
+            ]
           },
-          "id": "6696",
+          "id": "6656",
           "type": "Range1d"
         },
         {
           "attributes": {
+            "callback": null,
+            "data": {
+              "bottom": {
+                "__ndarray__": "kqw27k1f7j/O/a58b9jzP6z/TGX3MuE/09jW/Mbv6T+jylSlvUrqP0EC6v51rcy/Y4nWTHon3j/atpedHKDZPwN/vx4Dn/M/HM4mif594D9FaKmrejTwP074C2nRLd8/JMRDqBrizD8l5L/imiL0P1KDR8nWzOE/",
+                "dtype": "float64",
+                "shape": [
+                  15
+                ]
+              },
+              "index": [
+                [
+                  "A",
+                  "0"
+                ],
+                [
+                  "A",
+                  "1"
+                ],
+                [
+                  "A",
+                  "2"
+                ],
+                [
+                  "A",
+                  "3"
+                ],
+                [
+                  "A",
+                  "4"
+                ],
+                [
+                  "B",
+                  "0"
+                ],
+                [
+                  "B",
+                  "1"
+                ],
+                [
+                  "B",
+                  "2"
+                ],
+                [
+                  "B",
+                  "3"
+                ],
+                [
+                  "B",
+                  "4"
+                ],
+                [
+                  "C",
+                  "0"
+                ],
+                [
+                  "C",
+                  "1"
+                ],
+                [
+                  "C",
+                  "2"
+                ],
+                [
+                  "C",
+                  "3"
+                ],
+                [
+                  "C",
+                  "4"
+                ]
+              ],
+              "top": {
+                "__ndarray__": "oKwf/bue0D9KyCnznAzgPzeYMjrXwLM/dlXnTTgq2T+VP5WAURbfP4LHDfoxROG/QHYvYgFqwz8iTVMaJ07Lv2gQ0VligdA/38K052TP0L/NIOoh7j2BPxA5qjLU7dq/A384AhZKxL/Ck/P6WGq7Px4+TrnrOLw/",
+                "dtype": "float64",
+                "shape": [
+                  15
+                ]
+              }
+            },
+            "selected": {
+              "id": "6742",
+              "type": "Selection"
+            },
+            "selection_policy": {
+              "id": "6743",
+              "type": "UnionRenderers"
+            }
+          },
+          "id": "6693",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "source": {
+              "id": "6687",
+              "type": "ColumnDataSource"
+            }
+          },
+          "id": "6692",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
             "data_source": {
-              "id": "6736",
+              "id": "6687",
               "type": "ColumnDataSource"
             },
             "glyph": {
-              "id": "6738",
+              "id": "6689",
+              "type": "Circle"
+            },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": {
+              "id": "6690",
+              "type": "Circle"
+            },
+            "selection_glyph": null,
+            "view": {
+              "id": "6692",
+              "type": "CDSView"
+            }
+          },
+          "id": "6691",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "fill_alpha": {
+              "value": 0.1
+            },
+            "fill_color": {
+              "value": "black"
+            },
+            "line_alpha": {
+              "value": 0.1
+            },
+            "line_color": {
+              "value": "black"
+            },
+            "x": {
+              "field": "Value"
+            },
+            "y": {
+              "field": "index"
+            }
+          },
+          "id": "6690",
+          "type": "Circle"
+        },
+        {
+          "attributes": {
+            "data_source": {
+              "id": "6693",
+              "type": "ColumnDataSource"
+            },
+            "glyph": {
+              "id": "6695",
               "type": "HBar"
             },
             "hover_glyph": null,
             "muted_glyph": null,
             "nonselection_glyph": {
-              "id": "6739",
+              "id": "6696",
               "type": "HBar"
             },
             "selection_glyph": null,
             "view": {
-              "id": "6741",
+              "id": "6698",
               "type": "CDSView"
             }
           },
-          "id": "6740",
+          "id": "6697",
           "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "fill_alpha": {
+              "value": 0.1
+            },
+            "fill_color": {
+              "value": "lightgray"
+            },
+            "height": {
+              "value": 0.7
+            },
+            "left": {
+              "field": "top"
+            },
+            "line_alpha": {
+              "value": 0.1
+            },
+            "line_color": {
+              "value": "black"
+            },
+            "right": {
+              "field": "bottom"
+            },
+            "y": {
+              "field": "index"
+            }
+          },
+          "id": "6696",
+          "type": "HBar"
+        },
+        {
+          "attributes": {
+            "x0": {
+              "field": "y0"
+            },
+            "x1": {
+              "field": "y1"
+            },
+            "y0": {
+              "field": "x0"
+            },
+            "y1": {
+              "field": "x1"
+            }
+          },
+          "id": "6713",
+          "type": "Segment"
+        },
+        {
+          "attributes": {
+            "line_alpha": {
+              "value": 0.1
+            },
+            "line_color": {
+              "value": "black"
+            },
+            "x0": {
+              "field": "y0"
+            },
+            "x1": {
+              "field": "y1"
+            },
+            "y0": {
+              "field": "x0"
+            },
+            "y1": {
+              "field": "x1"
+            }
+          },
+          "id": "6726",
+          "type": "Segment"
         }
       ],
       "root_ids": [
-        "6699"
+        "6658"
       ]
     },
     "title": "Bokeh Application",
-    "version": "1.0.0"
+    "version": "1.1.0rc1"
   }
 };
   var render_items = [
   {
     "docid": 47,
     "roots": {
-      "6699": 48
+      "6658": 48
     }
   }
 ];

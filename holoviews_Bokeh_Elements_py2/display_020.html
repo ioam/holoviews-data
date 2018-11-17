@@ -5,7 +5,7 @@
 
 
 
-  <div class="bk-root" id="76"></div>
+  <div class="bk-root" id="76" data-root-id="10373"></div>
 
 <script type="text/javascript">
   (function(root) {
@@ -17,50 +17,87 @@
       "references": [
         {
           "attributes": {},
-          "id": "10439",
-          "type": "BasicTicker"
+          "id": "10413",
+          "type": "BasicTickFormatter"
         },
         {
           "attributes": {},
-          "id": "10474",
-          "type": "UnionRenderers"
+          "id": "10396",
+          "type": "ResetTool"
+        },
+        {
+          "attributes": {},
+          "id": "10411",
+          "type": "BasicTickFormatter"
         },
         {
           "attributes": {
-            "bottom_units": "screen",
-            "fill_alpha": {
-              "value": 0.5
-            },
-            "fill_color": {
-              "value": "lightgrey"
-            },
-            "left_units": "screen",
-            "level": "overlay",
-            "line_alpha": {
-              "value": 1.0
-            },
-            "line_color": {
-              "value": "black"
-            },
-            "line_dash": [
-              4,
-              4
-            ],
-            "line_width": {
-              "value": 2
-            },
-            "plot": null,
-            "render_mode": "css",
-            "right_units": "screen",
-            "top_units": "screen"
+            "source": {
+              "id": "10403",
+              "type": "ColumnDataSource"
+            }
           },
-          "id": "10451",
-          "type": "BoxAnnotation"
+          "id": "10410",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
+            "axis_label": "Intensity",
+            "bounds": "auto",
+            "formatter": {
+              "id": "10413",
+              "type": "BasicTickFormatter"
+            },
+            "major_label_orientation": "horizontal",
+            "ticker": {
+              "id": "10388",
+              "type": "BasicTicker"
+            }
+          },
+          "id": "10387",
+          "type": "LinearAxis"
+        },
+        {
+          "attributes": {
+            "ticker": {
+              "id": "10383",
+              "type": "BasicTicker"
+            }
+          },
+          "id": "10386",
+          "type": "Grid"
         },
         {
           "attributes": {},
-          "id": "10457",
-          "type": "Selection"
+          "id": "10383",
+          "type": "BasicTicker"
+        },
+        {
+          "attributes": {
+            "axis_label": "Mass",
+            "bounds": "auto",
+            "formatter": {
+              "id": "10411",
+              "type": "BasicTickFormatter"
+            },
+            "major_label_orientation": "horizontal",
+            "ticker": {
+              "id": "10383",
+              "type": "BasicTicker"
+            }
+          },
+          "id": "10382",
+          "type": "LinearAxis"
+        },
+        {
+          "attributes": {},
+          "id": "10380",
+          "type": "LinearScale"
+        },
+        {
+          "attributes": {},
+          "id": "10388",
+          "type": "BasicTicker"
         },
         {
           "attributes": {
@@ -89,147 +126,39 @@
               }
             },
             "selected": {
-              "id": "10457",
+              "id": "10404",
               "type": "Selection"
             },
             "selection_policy": {
-              "id": "10474",
+              "id": "10423",
               "type": "UnionRenderers"
             }
           },
-          "id": "10456",
+          "id": "10403",
           "type": "ColumnDataSource"
         },
         {
           "attributes": {},
-          "id": "10445",
-          "type": "WheelZoomTool"
-        },
-        {
-          "attributes": {},
-          "id": "10431",
-          "type": "LinearScale"
+          "id": "10404",
+          "type": "Selection"
         },
         {
           "attributes": {
-            "axis_label": "Mass",
-            "bounds": "auto",
-            "formatter": {
-              "id": "10464",
-              "type": "BasicTickFormatter"
+            "x0": {
+              "field": "x"
             },
-            "major_label_orientation": "horizontal",
-            "plot": {
-              "id": "10425",
-              "subtype": "Figure",
-              "type": "Plot"
+            "x1": {
+              "field": "x"
             },
-            "ticker": {
-              "id": "10434",
-              "type": "BasicTicker"
+            "y0": {
+              "field": "y0"
+            },
+            "y1": {
+              "field": "y1"
             }
           },
-          "id": "10433",
-          "type": "LinearAxis"
-        },
-        {
-          "attributes": {},
-          "id": "10434",
-          "type": "BasicTicker"
-        },
-        {
-          "attributes": {
-            "plot": {
-              "id": "10425",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "10434",
-              "type": "BasicTicker"
-            }
-          },
-          "id": "10437",
-          "type": "Grid"
-        },
-        {
-          "attributes": {},
-          "id": "10444",
-          "type": "PanTool"
-        },
-        {
-          "attributes": {
-            "dimension": 1,
-            "plot": {
-              "id": "10425",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "10439",
-              "type": "BasicTicker"
-            }
-          },
-          "id": "10442",
-          "type": "Grid"
-        },
-        {
-          "attributes": {},
-          "id": "10443",
-          "type": "SaveTool"
-        },
-        {
-          "attributes": {},
-          "id": "10466",
-          "type": "BasicTickFormatter"
-        },
-        {
-          "attributes": {},
-          "id": "10464",
-          "type": "BasicTickFormatter"
-        },
-        {
-          "attributes": {},
-          "id": "10429",
-          "type": "LinearScale"
-        },
-        {
-          "attributes": {
-            "data_source": {
-              "id": "10456",
-              "type": "ColumnDataSource"
-            },
-            "glyph": {
-              "id": "10459",
-              "type": "Segment"
-            },
-            "hover_glyph": null,
-            "muted_glyph": {
-              "id": "10461",
-              "type": "Segment"
-            },
-            "nonselection_glyph": {
-              "id": "10460",
-              "type": "Segment"
-            },
-            "selection_glyph": null,
-            "view": {
-              "id": "10463",
-              "type": "CDSView"
-            }
-          },
-          "id": "10462",
-          "type": "GlyphRenderer"
-        },
-        {
-          "attributes": {
-            "source": {
-              "id": "10456",
-              "type": "ColumnDataSource"
-            }
-          },
-          "id": "10463",
-          "type": "CDSView"
+          "id": "10406",
+          "type": "Segment"
         },
         {
           "attributes": {
@@ -252,7 +181,7 @@
               "field": "y1"
             }
           },
-          "id": "10460",
+          "id": "10407",
           "type": "Segment"
         },
         {
@@ -276,173 +205,77 @@
               "field": "y1"
             }
           },
-          "id": "10461",
+          "id": "10408",
           "type": "Segment"
         },
         {
           "attributes": {
-            "callback": null,
-            "end": 0.9113002243524484,
-            "reset_end": 0.9113002243524484,
-            "reset_start": 0.016909811354707704,
-            "start": 0.016909811354707704
+            "data_source": {
+              "id": "10403",
+              "type": "ColumnDataSource"
+            },
+            "glyph": {
+              "id": "10406",
+              "type": "Segment"
+            },
+            "hover_glyph": null,
+            "muted_glyph": {
+              "id": "10408",
+              "type": "Segment"
+            },
+            "nonselection_glyph": {
+              "id": "10407",
+              "type": "Segment"
+            },
+            "selection_glyph": null,
+            "view": {
+              "id": "10410",
+              "type": "CDSView"
+            }
           },
-          "id": "10422",
-          "type": "Range1d"
+          "id": "10409",
+          "type": "GlyphRenderer"
         },
         {
           "attributes": {
-            "callback": null,
-            "end": 0.9669893878549964,
-            "reset_end": 0.9669893878549964,
-            "reset_start": 0.0
+            "dimension": 1,
+            "ticker": {
+              "id": "10388",
+              "type": "BasicTicker"
+            }
           },
-          "id": "10423",
-          "type": "Range1d"
+          "id": "10391",
+          "type": "Grid"
+        },
+        {
+          "attributes": {},
+          "id": "10392",
+          "type": "SaveTool"
+        },
+        {
+          "attributes": {},
+          "id": "10393",
+          "type": "PanTool"
+        },
+        {
+          "attributes": {},
+          "id": "10394",
+          "type": "WheelZoomTool"
         },
         {
           "attributes": {
             "overlay": {
-              "id": "10451",
+              "id": "10424",
               "type": "BoxAnnotation"
             }
           },
-          "id": "10446",
+          "id": "10395",
           "type": "BoxZoomTool"
         },
         {
           "attributes": {},
-          "id": "10447",
-          "type": "ResetTool"
-        },
-        {
-          "attributes": {
-            "plot": null,
-            "text": "",
-            "text_color": {
-              "value": "black"
-            },
-            "text_font_size": {
-              "value": "12pt"
-            }
-          },
-          "id": "10424",
-          "type": "Title"
-        },
-        {
-          "attributes": {
-            "below": [
-              {
-                "id": "10433",
-                "type": "LinearAxis"
-              }
-            ],
-            "left": [
-              {
-                "id": "10438",
-                "type": "LinearAxis"
-              }
-            ],
-            "min_border_bottom": 10,
-            "min_border_left": 10,
-            "min_border_right": 10,
-            "min_border_top": 10,
-            "plot_height": 300,
-            "plot_width": 300,
-            "renderers": [
-              {
-                "id": "10433",
-                "type": "LinearAxis"
-              },
-              {
-                "id": "10437",
-                "type": "Grid"
-              },
-              {
-                "id": "10438",
-                "type": "LinearAxis"
-              },
-              {
-                "id": "10442",
-                "type": "Grid"
-              },
-              {
-                "id": "10451",
-                "type": "BoxAnnotation"
-              },
-              {
-                "id": "10462",
-                "type": "GlyphRenderer"
-              }
-            ],
-            "title": {
-              "id": "10424",
-              "type": "Title"
-            },
-            "toolbar": {
-              "id": "10448",
-              "type": "Toolbar"
-            },
-            "x_range": {
-              "id": "10422",
-              "type": "Range1d"
-            },
-            "x_scale": {
-              "id": "10429",
-              "type": "LinearScale"
-            },
-            "y_range": {
-              "id": "10423",
-              "type": "Range1d"
-            },
-            "y_scale": {
-              "id": "10431",
-              "type": "LinearScale"
-            }
-          },
-          "id": "10425",
-          "subtype": "Figure",
-          "type": "Plot"
-        },
-        {
-          "attributes": {
-            "x0": {
-              "field": "x"
-            },
-            "x1": {
-              "field": "x"
-            },
-            "y0": {
-              "field": "y0"
-            },
-            "y1": {
-              "field": "y1"
-            }
-          },
-          "id": "10459",
-          "type": "Segment"
-        },
-        {
-          "attributes": {
-            "axis_label": "Intensity",
-            "bounds": "auto",
-            "formatter": {
-              "id": "10466",
-              "type": "BasicTickFormatter"
-            },
-            "major_label_orientation": "horizontal",
-            "plot": {
-              "id": "10425",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "10439",
-              "type": "BasicTicker"
-            }
-          },
-          "id": "10438",
-          "type": "LinearAxis"
+          "id": "10378",
+          "type": "LinearScale"
         },
         {
           "attributes": {
@@ -453,44 +286,199 @@
             "active_tap": "auto",
             "tools": [
               {
-                "id": "10443",
+                "id": "10392",
                 "type": "SaveTool"
               },
               {
-                "id": "10444",
+                "id": "10393",
                 "type": "PanTool"
               },
               {
-                "id": "10445",
+                "id": "10394",
                 "type": "WheelZoomTool"
               },
               {
-                "id": "10446",
+                "id": "10395",
                 "type": "BoxZoomTool"
               },
               {
-                "id": "10447",
+                "id": "10396",
                 "type": "ResetTool"
               }
             ]
           },
-          "id": "10448",
+          "id": "10397",
           "type": "Toolbar"
+        },
+        {
+          "attributes": {},
+          "id": "10423",
+          "type": "UnionRenderers"
+        },
+        {
+          "attributes": {
+            "text": "",
+            "text_color": {
+              "value": "black"
+            },
+            "text_font_size": {
+              "value": "12pt"
+            }
+          },
+          "id": "10374",
+          "type": "Title"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "end": 0.9669893878549964,
+            "reset_end": 0.9669893878549964,
+            "reset_start": 0.0,
+            "tags": [
+              [
+                [
+                  "Intensity",
+                  "Intensity",
+                  null
+                ]
+              ]
+            ]
+          },
+          "id": "10372",
+          "type": "Range1d"
+        },
+        {
+          "attributes": {
+            "below": [
+              {
+                "id": "10382",
+                "type": "LinearAxis"
+              }
+            ],
+            "center": [
+              {
+                "id": "10386",
+                "type": "Grid"
+              },
+              {
+                "id": "10391",
+                "type": "Grid"
+              }
+            ],
+            "left": [
+              {
+                "id": "10387",
+                "type": "LinearAxis"
+              }
+            ],
+            "margin": null,
+            "min_border_bottom": 10,
+            "min_border_left": 10,
+            "min_border_right": 10,
+            "min_border_top": 10,
+            "plot_height": 300,
+            "plot_width": 300,
+            "renderers": [
+              {
+                "id": "10409",
+                "type": "GlyphRenderer"
+              }
+            ],
+            "sizing_mode": "fixed",
+            "title": {
+              "id": "10374",
+              "type": "Title"
+            },
+            "toolbar": {
+              "id": "10397",
+              "type": "Toolbar"
+            },
+            "x_range": {
+              "id": "10371",
+              "type": "Range1d"
+            },
+            "x_scale": {
+              "id": "10378",
+              "type": "LinearScale"
+            },
+            "y_range": {
+              "id": "10372",
+              "type": "Range1d"
+            },
+            "y_scale": {
+              "id": "10380",
+              "type": "LinearScale"
+            }
+          },
+          "id": "10373",
+          "subtype": "Figure",
+          "type": "Plot"
+        },
+        {
+          "attributes": {
+            "bottom_units": "screen",
+            "fill_alpha": {
+              "value": 0.5
+            },
+            "fill_color": {
+              "value": "lightgrey"
+            },
+            "left_units": "screen",
+            "level": "overlay",
+            "line_alpha": {
+              "value": 1.0
+            },
+            "line_color": {
+              "value": "black"
+            },
+            "line_dash": [
+              4,
+              4
+            ],
+            "line_width": {
+              "value": 2
+            },
+            "render_mode": "css",
+            "right_units": "screen",
+            "top_units": "screen"
+          },
+          "id": "10424",
+          "type": "BoxAnnotation"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "end": 0.9113002243524484,
+            "reset_end": 0.9113002243524484,
+            "reset_start": 0.016909811354707704,
+            "start": 0.016909811354707704,
+            "tags": [
+              [
+                [
+                  "Mass",
+                  "Mass",
+                  null
+                ]
+              ]
+            ]
+          },
+          "id": "10371",
+          "type": "Range1d"
         }
       ],
       "root_ids": [
-        "10425"
+        "10373"
       ]
     },
     "title": "Bokeh Application",
-    "version": "1.0.0"
+    "version": "1.1.0rc1"
   }
 };
   var render_items = [
   {
     "docid": 75,
     "roots": {
-      "10425": 76
+      "10373": 76
     }
   }
 ];

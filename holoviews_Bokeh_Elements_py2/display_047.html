@@ -5,7 +5,7 @@
 
 
 
-  <div class="bk-root" id="172"></div>
+  <div class="bk-root" id="172" data-root-id="23889"></div>
 
 <script type="text/javascript">
   (function(root) {
@@ -17,113 +17,58 @@
       "references": [
         {
           "attributes": {
-            "dimension": 1,
-            "plot": {
-              "id": "24257",
-              "subtype": "Figure",
-              "type": "Plot"
+            "text": "",
+            "text_color": {
+              "value": "black"
             },
-            "ticker": {
-              "id": "24271",
-              "type": "BasicTicker"
+            "text_font_size": {
+              "value": "12pt"
             }
           },
-          "id": "24274",
-          "type": "Grid"
+          "id": "23890",
+          "type": "Title"
         },
         {
           "attributes": {},
-          "id": "24275",
-          "type": "SaveTool"
+          "id": "23894",
+          "type": "LinearScale"
         },
         {
           "attributes": {},
-          "id": "24276",
-          "type": "PanTool"
+          "id": "23896",
+          "type": "LinearScale"
         },
         {
           "attributes": {},
-          "id": "24277",
-          "type": "WheelZoomTool"
-        },
-        {
-          "attributes": {
-            "axis_label": "y",
-            "bounds": "auto",
-            "formatter": {
-              "id": "24290",
-              "type": "BasicTickFormatter"
-            },
-            "major_label_orientation": "horizontal",
-            "plot": {
-              "id": "24257",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "24271",
-              "type": "BasicTicker"
-            }
-          },
-          "id": "24270",
-          "type": "LinearAxis"
-        },
-        {
-          "attributes": {},
-          "id": "24271",
+          "id": "23899",
           "type": "BasicTicker"
         },
         {
           "attributes": {
-            "source": {
-              "id": "24309",
-              "type": "ColumnDataSource"
+            "axis_label": "x",
+            "bounds": "auto",
+            "formatter": {
+              "id": "23919",
+              "type": "BasicTickFormatter"
+            },
+            "major_label_orientation": "horizontal",
+            "ticker": {
+              "id": "23899",
+              "type": "BasicTicker"
             }
           },
-          "id": "24315",
-          "type": "CDSView"
+          "id": "23898",
+          "type": "LinearAxis"
         },
         {
           "attributes": {
-            "data_source": {
-              "id": "24309",
-              "type": "ColumnDataSource"
+            "line_alpha": {
+              "value": 0.1
             },
-            "glyph": {
-              "id": "24312",
-              "type": "MultiLine"
-            },
-            "hover_glyph": null,
-            "muted_glyph": null,
-            "nonselection_glyph": {
-              "id": "24313",
-              "type": "MultiLine"
-            },
-            "selection_glyph": null,
-            "view": {
-              "id": "24315",
-              "type": "CDSView"
-            }
-          },
-          "id": "24314",
-          "type": "GlyphRenderer"
-        },
-        {
-          "attributes": {
-            "overlay": {
-              "id": "24283",
-              "type": "BoxAnnotation"
-            }
-          },
-          "id": "24278",
-          "type": "BoxZoomTool"
-        },
-        {
-          "attributes": {
             "line_color": {
               "field": "Level",
               "transform": {
-                "id": "24308",
+                "id": "23933",
                 "type": "LinearColorMapper"
               }
             },
@@ -134,42 +79,322 @@
               "field": "ys"
             }
           },
-          "id": "24312",
+          "id": "23938",
           "type": "MultiLine"
         },
         {
           "attributes": {},
-          "id": "24310",
+          "id": "23957",
+          "type": "UnionRenderers"
+        },
+        {
+          "attributes": {},
+          "id": "23959",
+          "type": "UnionRenderers"
+        },
+        {
+          "attributes": {
+            "active_drag": "auto",
+            "active_inspect": "auto",
+            "active_multi": null,
+            "active_scroll": "auto",
+            "active_tap": "auto",
+            "tools": [
+              {
+                "id": "23908",
+                "type": "SaveTool"
+              },
+              {
+                "id": "23909",
+                "type": "PanTool"
+              },
+              {
+                "id": "23910",
+                "type": "WheelZoomTool"
+              },
+              {
+                "id": "23911",
+                "type": "BoxZoomTool"
+              },
+              {
+                "id": "23912",
+                "type": "ResetTool"
+              }
+            ]
+          },
+          "id": "23913",
+          "type": "Toolbar"
+        },
+        {
+          "attributes": {
+            "line_color": {
+              "field": "Level",
+              "transform": {
+                "id": "23933",
+                "type": "LinearColorMapper"
+              }
+            },
+            "xs": {
+              "field": "xs"
+            },
+            "ys": {
+              "field": "ys"
+            }
+          },
+          "id": "23937",
+          "type": "MultiLine"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "data": {
+              "Level": {
+                "__ndarray__": "AAAAAAAAAAA=",
+                "dtype": "float64",
+                "shape": [
+                  1
+                ]
+              },
+              "xs": [
+                {
+                  "__ndarray__": "AAAAAAAAAADSFNkqh5OMP/jdQarMhJw/BfRP9jdRpT/cLTcsEEqsPwgczI3fkrE/gWNJfJnutD/EOByovzS4P85s0BXyYbs/wWeRgupyvj8AlCHiP7LAP9t5zoXUGcI/ZvZ0gsBuwz85DBtqpK/EP9QP6nQ128U/KHco1j7wxj8XHIv6ou3HPyLRla5c0sg/3tTbK4CdyT9OlwoMPE7KP6FIxCDa48o/pq9rL8Bdyz9Ssh+QcLvLP2uuQq+K/Ms/7hwIccsgzD8Q4aF2DSjMP7bzxURJEsw/yLVkS5Xfyz8t9ofOJZDLP+SCcrBMJMs/1s43HXmcyj+qriIYN/nJPx5OYesuO8k/viSLeiRjyD/SvLN49nHHP+py2oKdaMY/1dGjHytIxT9st2SlyBHEPyrooQe2xsI/BwRAjUhowT+prm/h0u+/P1BVc9co7rw/HdJ+X6zOuT/UNEKalZS2P+9wohQ4Q7M//uTas/67rz+r8aTa1tCoP+kdglwazKE/o+2arQpqlT9YoVaBNpd8P4uhVoE2l3y/r+2arQpqlb/vHYJcGsyhv6PxpNrW0Ki/BOXas/67r7/rcKIUOEOzv9c0QpqVlLa/GdJ+X6zOub9SVXPXKO68v6aub+HS77+/CQRAjUhowb8p6KEHtsbCv263ZKXIEcS/1dGjHytIxb/rctqCnWjGv9G8s3j2cce/wCSLeiRjyL8fTmHrLjvJv6quIhg3+cm/1c43HXmcyr/lgnKwTCTLvy32h84lkMu/yLVkS5Xfy7+188VESRLMvxDhoXYNKMy/7hwIccsgzL9rrkKvivzLv1OyH5Bwu8u/pq9rL8Bdy7+hSMQg2uPKv0+XCgw8Tsq/3dTbK4Cdyb8h0ZWuXNLIvxcci/qi7ce/KXco1j7wxr/SD+p0NdvFvzgMG2qkr8S/ZvZ0gsBuw7/eec6F1BnCv/6TIeI/ssC/wGeRgupyvr/QbNAV8mG7v8k4HKi/NLi/e2NJfJnutL8HHMyN35Kxv+EtNywQSqy/9vNP9jdRpb/q3UGqzIScv9QU2SqHk4y/4/OoT/EPj7w=",
+                  "dtype": "float64",
+                  "shape": [
+                    100
+                  ]
+                }
+              ],
+              "ys": [
+                {
+                  "__ndarray__": "KVyPwvUozD+NGRovchrMP9bw0mr27ss/+JmXSK+myz9nW9ZJ50HLP/O7wFEGwco/FJw0OpEkyj+YGspKKW3JP0lvk5KLm8g/hRs6JZCwxz9BVUI8Ka3GP5lGWj1iksU/s4S2pl5hxD+E4JfiWBvDP2FOMAOhwcE/5Pw0aJtVwD/LbAWffrG9P552nqQqmbo/05/soGtltz/BUweXjhm0P/5ZV2b5uLA/16vPk06Oqj+5PGaDSo+jP4/FeaY5+Jg/wU9TD0JwhT+xmlxiIphsv9cCKWh62pG/pRN+lcQHoL8d2DC2xRGnvwMBngr/A66/DepSxaNrsr/AhI8JS8K1v9fFPlOEArm/LVyPwvUovL9DbfUKYDK/v3guC+bQDcG/8STuZd1wwr8n2y6H58DDv+uFNOSU/MS/LBfVFKAixr89+sT92THHv+D8CQkrKci/gVAvRpQHyb/yjRFxMMzJv8bVM940dsq/qW+qS/IEy7+DjcOV1XfLv0H4s05ozsu/zkyrOFEIzL+08dGhVCXMv7Tx0aFUJcy/zkyrOFEIzL9B+LNOaM7Lv4ONw5XVd8u/qW+qS/IEy7/H1TPeNHbKv/KNEXEwzMm/glAvRpQHyb/f/AkJKynIvz76xP3ZMce/KxfVFKAixr/shTTklPzEvybbLofnwMO/8yTuZd1wwr92Lgvm0A3Bv0dt9QpgMr+/I1yPwvUovL/UxT5ThAK5v8CEjwlLwrW/EOpSxaNrsr/2AJ4K/wOuvxbYMLbFEae/pRN+lcQHoL/nAiloetqRv9yZXGIimGy/209TD0JwhT+AxXmmOfiYP6s8ZoNKj6M/3qvPk06Oqj/+WVdm+biwP75TB5eOGbQ/2p/soGtltz+gdp6kKpm6P8tsBZ9+sb0/4vw0aJtVwD9kTjADocHBP4Xgl+JYG8M/s4S2pl5hxD+XRlo9YpLFP0JVQjwprcY/hRs6JZCwxz9Jb5OSi5vIP5caykopbck/FJw0OpEkyj/zu8BRBsHKP2db1knnQcs/+ZmXSK+myz/W8NJq9u7LP40ZGi9yGsw/KVyPwvUozD8=",
+                  "dtype": "float64",
+                  "shape": [
+                    100
+                  ]
+                }
+              ]
+            },
+            "selected": {
+              "id": "23935",
+              "type": "Selection"
+            },
+            "selection_policy": {
+              "id": "23957",
+              "type": "UnionRenderers"
+            }
+          },
+          "id": "23934",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {},
+          "id": "23935",
           "type": "Selection"
         },
         {
           "attributes": {
-            "plot": null,
-            "text": "",
-            "text_color": {
-              "value": "black"
-            },
-            "text_font_size": {
-              "value": "12pt"
+            "source": {
+              "id": "23926",
+              "type": "ColumnDataSource"
             }
           },
-          "id": "24256",
-          "type": "Title"
+          "id": "23932",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {},
+          "id": "23919",
+          "type": "BasicTickFormatter"
+        },
+        {
+          "attributes": {
+            "color_mapper": {
+              "id": "23925",
+              "type": "LinearColorMapper"
+            },
+            "dh": {
+              "field": "dh",
+              "units": "data"
+            },
+            "dw": {
+              "field": "dw",
+              "units": "data"
+            },
+            "image": {
+              "field": "image"
+            },
+            "x": {
+              "field": "x"
+            },
+            "y": {
+              "field": "y"
+            }
+          },
+          "id": "23930",
+          "type": "Image"
+        },
+        {
+          "attributes": {
+            "data_source": {
+              "id": "23926",
+              "type": "ColumnDataSource"
+            },
+            "glyph": {
+              "id": "23929",
+              "type": "Image"
+            },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": {
+              "id": "23930",
+              "type": "Image"
+            },
+            "selection_glyph": null,
+            "view": {
+              "id": "23932",
+              "type": "CDSView"
+            }
+          },
+          "id": "23931",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {},
+          "id": "23910",
+          "type": "WheelZoomTool"
+        },
+        {
+          "attributes": {
+            "overlay": {
+              "id": "23960",
+              "type": "BoxAnnotation"
+            }
+          },
+          "id": "23911",
+          "type": "BoxZoomTool"
+        },
+        {
+          "attributes": {},
+          "id": "23912",
+          "type": "ResetTool"
+        },
+        {
+          "attributes": {
+            "data_source": {
+              "id": "23934",
+              "type": "ColumnDataSource"
+            },
+            "glyph": {
+              "id": "23937",
+              "type": "MultiLine"
+            },
+            "hover_glyph": null,
+            "muted_glyph": null,
+            "nonselection_glyph": {
+              "id": "23938",
+              "type": "MultiLine"
+            },
+            "selection_glyph": null,
+            "view": {
+              "id": "23940",
+              "type": "CDSView"
+            }
+          },
+          "id": "23939",
+          "type": "GlyphRenderer"
+        },
+        {
+          "attributes": {
+            "source": {
+              "id": "23942",
+              "type": "ColumnDataSource"
+            }
+          },
+          "id": "23948",
+          "type": "CDSView"
+        },
+        {
+          "attributes": {
+            "axis_label": "y",
+            "bounds": "auto",
+            "formatter": {
+              "id": "23921",
+              "type": "BasicTickFormatter"
+            },
+            "major_label_orientation": "horizontal",
+            "ticker": {
+              "id": "23904",
+              "type": "BasicTicker"
+            }
+          },
+          "id": "23903",
+          "type": "LinearAxis"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "end": 0.5,
+            "reset_end": 0.5,
+            "reset_start": -0.5,
+            "start": -0.5,
+            "tags": [
+              [
+                [
+                  "x",
+                  "x",
+                  null
+                ]
+              ]
+            ]
+          },
+          "id": "23887",
+          "type": "Range1d"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "end": 0.5,
+            "reset_end": 0.5,
+            "reset_start": -0.5,
+            "start": -0.5,
+            "tags": [
+              [
+                [
+                  "y",
+                  "y",
+                  null
+                ]
+              ]
+            ]
+          },
+          "id": "23888",
+          "type": "Range1d"
         },
         {
           "attributes": {
             "below": [
               {
-                "id": "24265",
+                "id": "23898",
                 "type": "LinearAxis"
+              }
+            ],
+            "center": [
+              {
+                "id": "23902",
+                "type": "Grid"
+              },
+              {
+                "id": "23907",
+                "type": "Grid"
               }
             ],
             "left": [
               {
-                "id": "24270",
+                "id": "23903",
                 "type": "LinearAxis"
               }
             ],
+            "margin": null,
             "min_border_bottom": 10,
             "min_border_left": 10,
             "min_border_right": 10,
@@ -178,128 +403,707 @@
             "plot_width": 300,
             "renderers": [
               {
-                "id": "24265",
-                "type": "LinearAxis"
-              },
-              {
-                "id": "24269",
-                "type": "Grid"
-              },
-              {
-                "id": "24270",
-                "type": "LinearAxis"
-              },
-              {
-                "id": "24274",
-                "type": "Grid"
-              },
-              {
-                "id": "24283",
-                "type": "BoxAnnotation"
-              },
-              {
-                "id": "24298",
+                "id": "23931",
                 "type": "GlyphRenderer"
               },
               {
-                "id": "24306",
+                "id": "23939",
                 "type": "GlyphRenderer"
               },
               {
-                "id": "24314",
+                "id": "23947",
                 "type": "GlyphRenderer"
               }
             ],
+            "sizing_mode": "fixed",
             "title": {
-              "id": "24256",
+              "id": "23890",
               "type": "Title"
             },
             "toolbar": {
-              "id": "24280",
+              "id": "23913",
               "type": "Toolbar"
             },
             "x_range": {
-              "id": "24254",
+              "id": "23887",
               "type": "Range1d"
             },
             "x_scale": {
-              "id": "24261",
+              "id": "23894",
               "type": "LinearScale"
             },
             "y_range": {
-              "id": "24255",
+              "id": "23888",
               "type": "Range1d"
             },
             "y_scale": {
-              "id": "24263",
+              "id": "23896",
               "type": "LinearScale"
             }
           },
-          "id": "24257",
+          "id": "23889",
           "subtype": "Figure",
           "type": "Plot"
         },
         {
           "attributes": {
-            "callback": null,
-            "end": 0.5,
-            "reset_end": 0.5,
-            "reset_start": -0.5,
-            "start": -0.5
-          },
-          "id": "24254",
-          "type": "Range1d"
-        },
-        {
-          "attributes": {
-            "callback": null,
-            "end": 0.5,
-            "reset_end": 0.5,
-            "reset_start": -0.5,
-            "start": -0.5
-          },
-          "id": "24255",
-          "type": "Range1d"
-        },
-        {
-          "attributes": {},
-          "id": "24279",
-          "type": "ResetTool"
-        },
-        {
-          "attributes": {
             "data_source": {
-              "id": "24293",
+              "id": "23942",
               "type": "ColumnDataSource"
             },
             "glyph": {
-              "id": "24296",
-              "type": "Image"
+              "id": "23945",
+              "type": "MultiLine"
             },
             "hover_glyph": null,
             "muted_glyph": null,
             "nonselection_glyph": {
-              "id": "24297",
-              "type": "Image"
+              "id": "23946",
+              "type": "MultiLine"
             },
             "selection_glyph": null,
             "view": {
-              "id": "24299",
+              "id": "23948",
               "type": "CDSView"
             }
           },
-          "id": "24298",
+          "id": "23947",
           "type": "GlyphRenderer"
         },
         {
           "attributes": {
+            "line_alpha": {
+              "value": 0.1
+            },
+            "line_color": {
+              "field": "Level",
+              "transform": {
+                "id": "23941",
+                "type": "LinearColorMapper"
+              }
+            },
+            "xs": {
+              "field": "xs"
+            },
+            "ys": {
+              "field": "ys"
+            }
+          },
+          "id": "23946",
+          "type": "MultiLine"
+        },
+        {
+          "attributes": {
+            "line_color": {
+              "field": "Level",
+              "transform": {
+                "id": "23941",
+                "type": "LinearColorMapper"
+              }
+            },
+            "xs": {
+              "field": "xs"
+            },
+            "ys": {
+              "field": "ys"
+            }
+          },
+          "id": "23945",
+          "type": "MultiLine"
+        },
+        {
+          "attributes": {},
+          "id": "23943",
+          "type": "Selection"
+        },
+        {
+          "attributes": {
+            "callback": null,
+            "data": {
+              "Level": {
+                "__ndarray__": "AAAAAAAA8D8=",
+                "dtype": "float64",
+                "shape": [
+                  1
+                ]
+              },
+              "xs": [
+                {
+                  "__ndarray__": "AAAAAAAAAACezyJgpW6VP3tmsX+ZY6U/CO538dP5rz9lYikhjDe1PwwqslRPXLo/QRVuOuZlvz+TKhW+jyfCP5tRXJB1icQ/0Q3t4S/Wxj8BXjLTXwvJP8m2tci+Jss/mnGvwyAmzT9VkiifdgfPP9+LrxdoZNA/XlmeIC800T8RVeg7OvLRP9pc8ILFndI/pt/kICA20z978QcJrbrTP3k2k5jjKtQ/vMOQI1CG1D++xRdslMzUP9ECcgNo/dQ/sxXGlJgY1T/MaPkYCh7VP8l2lPO2DdU/VoiL+K/n1D+i+OVaHKzUPyviVYQ5W9Q/Idvp1Vr10z8AAxpS6XrTP5f6iDBj7NI/j1voW1tK0j+dzYbaeJXRPzDWIyJ2ztA/wLp1r0Dszz8jExf4rBrOP0DccgsRKsw/Cwbg02wcyj//whMp3vPHP/1/lqGessU/lh2fRwFbwz+fp7EzcO/AP2ap8x7U5Lw/vyvkBv/Mtz9AtfsjoZyyP94sw4onsqo/OjI0AogPoD8C+QDhaHGFPyj5AOFocYW/RDI0AogPoL/nLMOKJ7Kqvzq1+yOhnLK/wyvkBv/Mt79hqfMe1OS8v6GnsTNw78C/kx2fRwFbw7/+f5ahnrLFv/3CEyne88e/Dgbg02wcyr893HILESrMvyUTF/isGs6/v7p1r0Dsz78x1iMids7Qv53Nhtp4ldG/kFvoW1tK0r+Y+ogwY+zSvwADGlLpetO/INvp1Vr1078s4lWEOVvUv6L45VocrNS/VoiL+K/n1L/IdpTztg3Vv8xo+RgKHtW/sxXGlJgY1b/RAnIDaP3Uv77FF2yUzNS/vMOQI1CG1L95NpOY4yrUv3vxBwmtutO/pt/kICA207/ZXPCCxZ3SvxFV6Ds68tG/X1meIC800b/ei68XaGTQv1SSKJ92B8+/mnGvwyAmzb/NtrXIvibLv/5dMtNfC8m/0A3t4S/Wxr+cUVyQdYnEv5cqFb6PJ8K/OhVuOuZlv78KKrJUT1y6v2liKSGMN7W/8e138dP5r79wZrF/mWOlv5/PImClbpW/67a++/RLl7w=",
+                  "dtype": "float64",
+                  "shape": [
+                    100
+                  ]
+                }
+              ],
+              "ys": [
+                {
+                  "__ndarray__": "H4XrUbge1T8qk1Oj1RPVP6E0HtA489Q/erNxdgO91D+NxGB3bXHUP/aMUL3EENQ/D3Wn62yb0z/ykxf43hHTP3eT7q2odNI/pJTrG2zE0T/xvzHt3gHRP/O0A67JLdA/DccR+g2Szj/G0ONTBanMP5J1yIRxoso/VntPHGmAyD+YEUT3HkXGP/bYdvvf8sM/33exuBCMwT+i/YriVSa+P/4Ggxl2Fbk/4sDb7rrqsz8VWxnF71atPytU2zwruqI/0Xt+izEUkD8FdMXJGXJ1v0OEPZy3x5q/dx094KYLqL8WoqRIVE2xv8KA9kf/gra/E1/8p3Whu7+QoytHuFHAv2EUbz7jwcK/IoXrUbgexb/zETgIyGXHv7TFEFm5lMm/ajflGEypy7+7SMZKW6HNv+LITlbfes+/YdGfD/iZ0L+uu1N+Y2XRv6h9x0bgHtK/YXyjNK/F0r92Ks1UJFnTv1Xgpqan2NO/v9O/uLVD1L8iqlIw4JnUvzH6BjvO2tS/mnmA6jwG1b9HdV15/xvVv0d1XXn/G9W/mnmA6jwG1b8x+gY7ztrUvyKqUjDgmdS/v9O/uLVD1L9V4Kamp9jTv3YqzVQkWdO/YnyjNK/F0r+nfcdG4B7Sv6+7U35jZdG/YNGfD/iZ0L/jyE5W33rPv7pIxkpboc2/bDflGEypy7+xxRBZuZTJv/UROAjIZce/GoXrUbgexb9fFG8+48HCv5CjK0e4UcC/GV/8p3Whu7+5gPZH/4K2vxGipEhUTbG/dx094KYLqL9bhD2ct8eav2VzxckZcnW/5Ht+izEUkD8gVNs8K7qiPwBbGcXvVq0/5sDb7rrqsz/+BoMZdhW5P539iuJVJr4/43exuBCMwT/42Hb73/LDP5gRRPceRcY/VHtPHGmAyD+WdciEcaLKP8jQ41MFqcw/DccR+g2Szj/xtAOuyS3QP/K/Me3eAdE/pJTrG2zE0T93k+6tqHTSP/GTF/jeEdM/EHWn62yb0z/2jFC9xBDUP43EYHdtcdQ/e7NxdgO91D+hNB7QOPPUPyqTU6PVE9U/H4XrUbge1T8=",
+                  "dtype": "float64",
+                  "shape": [
+                    100
+                  ]
+                }
+              ]
+            },
+            "selected": {
+              "id": "23943",
+              "type": "Selection"
+            },
+            "selection_policy": {
+              "id": "23959",
+              "type": "UnionRenderers"
+            }
+          },
+          "id": "23942",
+          "type": "ColumnDataSource"
+        },
+        {
+          "attributes": {
+            "high": 1.0,
+            "low": 0.0,
+            "palette": [
+              "#440154",
+              "#440255",
+              "#440357",
+              "#450558",
+              "#45065a",
+              "#45085b",
+              "#46095c",
+              "#460b5e",
+              "#460c5f",
+              "#460e61",
+              "#470f62",
+              "#471163",
+              "#471265",
+              "#471466",
+              "#471567",
+              "#471669",
+              "#47186a",
+              "#48196b",
+              "#481a6c",
+              "#481c6e",
+              "#481d6f",
+              "#481e70",
+              "#482071",
+              "#482172",
+              "#482273",
+              "#482374",
+              "#472575",
+              "#472676",
+              "#472777",
+              "#472878",
+              "#472a79",
+              "#472b7a",
+              "#472c7b",
+              "#462d7c",
+              "#462f7c",
+              "#46307d",
+              "#46317e",
+              "#45327f",
+              "#45347f",
+              "#453580",
+              "#453681",
+              "#443781",
+              "#443982",
+              "#433a83",
+              "#433b83",
+              "#433c84",
+              "#423d84",
+              "#423e85",
+              "#424085",
+              "#414186",
+              "#414286",
+              "#404387",
+              "#404487",
+              "#3f4587",
+              "#3f4788",
+              "#3e4888",
+              "#3e4989",
+              "#3d4a89",
+              "#3d4b89",
+              "#3d4c89",
+              "#3c4d8a",
+              "#3c4e8a",
+              "#3b508a",
+              "#3b518a",
+              "#3a528b",
+              "#3a538b",
+              "#39548b",
+              "#39558b",
+              "#38568b",
+              "#38578c",
+              "#37588c",
+              "#37598c",
+              "#365a8c",
+              "#365b8c",
+              "#355c8c",
+              "#355d8c",
+              "#345e8d",
+              "#345f8d",
+              "#33608d",
+              "#33618d",
+              "#32628d",
+              "#32638d",
+              "#31648d",
+              "#31658d",
+              "#31668d",
+              "#30678d",
+              "#30688d",
+              "#2f698d",
+              "#2f6a8d",
+              "#2e6b8e",
+              "#2e6c8e",
+              "#2e6d8e",
+              "#2d6e8e",
+              "#2d6f8e",
+              "#2c708e",
+              "#2c718e",
+              "#2c728e",
+              "#2b738e",
+              "#2b748e",
+              "#2a758e",
+              "#2a768e",
+              "#2a778e",
+              "#29788e",
+              "#29798e",
+              "#287a8e",
+              "#287a8e",
+              "#287b8e",
+              "#277c8e",
+              "#277d8e",
+              "#277e8e",
+              "#267f8e",
+              "#26808e",
+              "#26818e",
+              "#25828e",
+              "#25838d",
+              "#24848d",
+              "#24858d",
+              "#24868d",
+              "#23878d",
+              "#23888d",
+              "#23898d",
+              "#22898d",
+              "#228a8d",
+              "#228b8d",
+              "#218c8d",
+              "#218d8c",
+              "#218e8c",
+              "#208f8c",
+              "#20908c",
+              "#20918c",
+              "#1f928c",
+              "#1f938b",
+              "#1f948b",
+              "#1f958b",
+              "#1f968b",
+              "#1e978a",
+              "#1e988a",
+              "#1e998a",
+              "#1e998a",
+              "#1e9a89",
+              "#1e9b89",
+              "#1e9c89",
+              "#1e9d88",
+              "#1e9e88",
+              "#1e9f88",
+              "#1ea087",
+              "#1fa187",
+              "#1fa286",
+              "#1fa386",
+              "#20a485",
+              "#20a585",
+              "#21a685",
+              "#21a784",
+              "#22a784",
+              "#23a883",
+              "#23a982",
+              "#24aa82",
+              "#25ab81",
+              "#26ac81",
+              "#27ad80",
+              "#28ae7f",
+              "#29af7f",
+              "#2ab07e",
+              "#2bb17d",
+              "#2cb17d",
+              "#2eb27c",
+              "#2fb37b",
+              "#30b47a",
+              "#32b57a",
+              "#33b679",
+              "#35b778",
+              "#36b877",
+              "#38b976",
+              "#39b976",
+              "#3bba75",
+              "#3dbb74",
+              "#3ebc73",
+              "#40bd72",
+              "#42be71",
+              "#44be70",
+              "#45bf6f",
+              "#47c06e",
+              "#49c16d",
+              "#4bc26c",
+              "#4dc26b",
+              "#4fc369",
+              "#51c468",
+              "#53c567",
+              "#55c666",
+              "#57c665",
+              "#59c764",
+              "#5bc862",
+              "#5ec961",
+              "#60c960",
+              "#62ca5f",
+              "#64cb5d",
+              "#67cc5c",
+              "#69cc5b",
+              "#6bcd59",
+              "#6dce58",
+              "#70ce56",
+              "#72cf55",
+              "#74d054",
+              "#77d052",
+              "#79d151",
+              "#7cd24f",
+              "#7ed24e",
+              "#81d34c",
+              "#83d34b",
+              "#86d449",
+              "#88d547",
+              "#8bd546",
+              "#8dd644",
+              "#90d643",
+              "#92d741",
+              "#95d73f",
+              "#97d83e",
+              "#9ad83c",
+              "#9dd93a",
+              "#9fd938",
+              "#a2da37",
+              "#a5da35",
+              "#a7db33",
+              "#aadb32",
+              "#addc30",
+              "#afdc2e",
+              "#b2dd2c",
+              "#b5dd2b",
+              "#b7dd29",
+              "#bade27",
+              "#bdde26",
+              "#bfdf24",
+              "#c2df22",
+              "#c5df21",
+              "#c7e01f",
+              "#cae01e",
+              "#cde01d",
+              "#cfe11c",
+              "#d2e11b",
+              "#d4e11a",
+              "#d7e219",
+              "#dae218",
+              "#dce218",
+              "#dfe318",
+              "#e1e318",
+              "#e4e318",
+              "#e7e419",
+              "#e9e419",
+              "#ece41a",
+              "#eee51b",
+              "#f1e51c",
+              "#f3e51e",
+              "#f6e61f",
+              "#f8e621",
+              "#fae622",
+              "#fde724"
+            ]
+          },
+          "id": "23941",
+          "type": "LinearColorMapper"
+        },
+        {
+          "attributes": {
             "source": {
-              "id": "24293",
+              "id": "23934",
               "type": "ColumnDataSource"
             }
           },
-          "id": "24299",
+          "id": "23940",
           "type": "CDSView"
+        },
+        {
+          "attributes": {},
+          "id": "23921",
+          "type": "BasicTickFormatter"
+        },
+        {
+          "attributes": {
+            "high": 1.0,
+            "low": 0.0,
+            "palette": [
+              "#440154",
+              "#440255",
+              "#440357",
+              "#450558",
+              "#45065a",
+              "#45085b",
+              "#46095c",
+              "#460b5e",
+              "#460c5f",
+              "#460e61",
+              "#470f62",
+              "#471163",
+              "#471265",
+              "#471466",
+              "#471567",
+              "#471669",
+              "#47186a",
+              "#48196b",
+              "#481a6c",
+              "#481c6e",
+              "#481d6f",
+              "#481e70",
+              "#482071",
+              "#482172",
+              "#482273",
+              "#482374",
+              "#472575",
+              "#472676",
+              "#472777",
+              "#472878",
+              "#472a79",
+              "#472b7a",
+              "#472c7b",
+              "#462d7c",
+              "#462f7c",
+              "#46307d",
+              "#46317e",
+              "#45327f",
+              "#45347f",
+              "#453580",
+              "#453681",
+              "#443781",
+              "#443982",
+              "#433a83",
+              "#433b83",
+              "#433c84",
+              "#423d84",
+              "#423e85",
+              "#424085",
+              "#414186",
+              "#414286",
+              "#404387",
+              "#404487",
+              "#3f4587",
+              "#3f4788",
+              "#3e4888",
+              "#3e4989",
+              "#3d4a89",
+              "#3d4b89",
+              "#3d4c89",
+              "#3c4d8a",
+              "#3c4e8a",
+              "#3b508a",
+              "#3b518a",
+              "#3a528b",
+              "#3a538b",
+              "#39548b",
+              "#39558b",
+              "#38568b",
+              "#38578c",
+              "#37588c",
+              "#37598c",
+              "#365a8c",
+              "#365b8c",
+              "#355c8c",
+              "#355d8c",
+              "#345e8d",
+              "#345f8d",
+              "#33608d",
+              "#33618d",
+              "#32628d",
+              "#32638d",
+              "#31648d",
+              "#31658d",
+              "#31668d",
+              "#30678d",
+              "#30688d",
+              "#2f698d",
+              "#2f6a8d",
+              "#2e6b8e",
+              "#2e6c8e",
+              "#2e6d8e",
+              "#2d6e8e",
+              "#2d6f8e",
+              "#2c708e",
+              "#2c718e",
+              "#2c728e",
+              "#2b738e",
+              "#2b748e",
+              "#2a758e",
+              "#2a768e",
+              "#2a778e",
+              "#29788e",
+              "#29798e",
+              "#287a8e",
+              "#287a8e",
+              "#287b8e",
+              "#277c8e",
+              "#277d8e",
+              "#277e8e",
+              "#267f8e",
+              "#26808e",
+              "#26818e",
+              "#25828e",
+              "#25838d",
+              "#24848d",
+              "#24858d",
+              "#24868d",
+              "#23878d",
+              "#23888d",
+              "#23898d",
+              "#22898d",
+              "#228a8d",
+              "#228b8d",
+              "#218c8d",
+              "#218d8c",
+              "#218e8c",
+              "#208f8c",
+              "#20908c",
+              "#20918c",
+              "#1f928c",
+              "#1f938b",
+              "#1f948b",
+              "#1f958b",
+              "#1f968b",
+              "#1e978a",
+              "#1e988a",
+              "#1e998a",
+              "#1e998a",
+              "#1e9a89",
+              "#1e9b89",
+              "#1e9c89",
+              "#1e9d88",
+              "#1e9e88",
+              "#1e9f88",
+              "#1ea087",
+              "#1fa187",
+              "#1fa286",
+              "#1fa386",
+              "#20a485",
+              "#20a585",
+              "#21a685",
+              "#21a784",
+              "#22a784",
+              "#23a883",
+              "#23a982",
+              "#24aa82",
+              "#25ab81",
+              "#26ac81",
+              "#27ad80",
+              "#28ae7f",
+              "#29af7f",
+              "#2ab07e",
+              "#2bb17d",
+              "#2cb17d",
+              "#2eb27c",
+              "#2fb37b",
+              "#30b47a",
+              "#32b57a",
+              "#33b679",
+              "#35b778",
+              "#36b877",
+              "#38b976",
+              "#39b976",
+              "#3bba75",
+              "#3dbb74",
+              "#3ebc73",
+              "#40bd72",
+              "#42be71",
+              "#44be70",
+              "#45bf6f",
+              "#47c06e",
+              "#49c16d",
+              "#4bc26c",
+              "#4dc26b",
+              "#4fc369",
+              "#51c468",
+              "#53c567",
+              "#55c666",
+              "#57c665",
+              "#59c764",
+              "#5bc862",
+              "#5ec961",
+              "#60c960",
+              "#62ca5f",
+              "#64cb5d",
+              "#67cc5c",
+              "#69cc5b",
+              "#6bcd59",
+              "#6dce58",
+              "#70ce56",
+              "#72cf55",
+              "#74d054",
+              "#77d052",
+              "#79d151",
+              "#7cd24f",
+              "#7ed24e",
+              "#81d34c",
+              "#83d34b",
+              "#86d449",
+              "#88d547",
+              "#8bd546",
+              "#8dd644",
+              "#90d643",
+              "#92d741",
+              "#95d73f",
+              "#97d83e",
+              "#9ad83c",
+              "#9dd93a",
+              "#9fd938",
+              "#a2da37",
+              "#a5da35",
+              "#a7db33",
+              "#aadb32",
+              "#addc30",
+              "#afdc2e",
+              "#b2dd2c",
+              "#b5dd2b",
+              "#b7dd29",
+              "#bade27",
+              "#bdde26",
+              "#bfdf24",
+              "#c2df22",
+              "#c5df21",
+              "#c7e01f",
+              "#cae01e",
+              "#cde01d",
+              "#cfe11c",
+              "#d2e11b",
+              "#d4e11a",
+              "#d7e219",
+              "#dae218",
+              "#dce218",
+              "#dfe318",
+              "#e1e318",
+              "#e4e318",
+              "#e7e419",
+              "#e9e419",
+              "#ece41a",
+              "#eee51b",
+              "#f1e51c",
+              "#f3e51e",
+              "#f6e61f",
+              "#f8e621",
+              "#fae622",
+              "#fde724"
+            ]
+          },
+          "id": "23933",
+          "type": "LinearColorMapper"
         },
         {
           "attributes": {
@@ -565,8 +1369,23 @@
               "#ffffff"
             ]
           },
-          "id": "24292",
+          "id": "23925",
           "type": "LinearColorMapper"
+        },
+        {
+          "attributes": {
+            "ticker": {
+              "id": "23899",
+              "type": "BasicTicker"
+            }
+          },
+          "id": "23902",
+          "type": "Grid"
+        },
+        {
+          "attributes": {},
+          "id": "23927",
+          "type": "Selection"
         },
         {
           "attributes": {
@@ -596,882 +1415,32 @@
               ]
             },
             "selected": {
-              "id": "24294",
+              "id": "23927",
               "type": "Selection"
             },
             "selection_policy": {
-              "id": "24322",
+              "id": "23955",
               "type": "UnionRenderers"
             }
           },
-          "id": "24293",
+          "id": "23926",
           "type": "ColumnDataSource"
         },
         {
-          "attributes": {},
-          "id": "24290",
-          "type": "BasicTickFormatter"
-        },
-        {
           "attributes": {
-            "color_mapper": {
-              "id": "24292",
-              "type": "LinearColorMapper"
-            },
-            "dh": {
-              "field": "dh",
-              "units": "data"
-            },
-            "dw": {
-              "field": "dw",
-              "units": "data"
-            },
-            "image": {
-              "field": "image"
-            },
-            "x": {
-              "field": "x"
-            },
-            "y": {
-              "field": "y"
-            }
-          },
-          "id": "24296",
-          "type": "Image"
-        },
-        {
-          "attributes": {
-            "color_mapper": {
-              "id": "24292",
-              "type": "LinearColorMapper"
-            },
-            "dh": {
-              "field": "dh",
-              "units": "data"
-            },
-            "dw": {
-              "field": "dw",
-              "units": "data"
-            },
-            "image": {
-              "field": "image"
-            },
-            "x": {
-              "field": "x"
-            },
-            "y": {
-              "field": "y"
-            }
-          },
-          "id": "24297",
-          "type": "Image"
-        },
-        {
-          "attributes": {},
-          "id": "24294",
-          "type": "Selection"
-        },
-        {
-          "attributes": {},
-          "id": "24322",
-          "type": "UnionRenderers"
-        },
-        {
-          "attributes": {
-            "callback": null,
-            "data": {
-              "Level": {
-                "__ndarray__": "AAAAAAAA8D8=",
-                "dtype": "float64",
-                "shape": [
-                  1
-                ]
-              },
-              "xs": [
-                {
-                  "__ndarray__": "AAAAAAAAAACezyJgpW6VP3tmsX+ZY6U/CO538dP5rz9lYikhjDe1PwwqslRPXLo/QRVuOuZlvz+TKhW+jyfCP5tRXJB1icQ/0Q3t4S/Wxj8BXjLTXwvJP8m2tci+Jss/mnGvwyAmzT9VkiifdgfPP9+LrxdoZNA/XlmeIC800T8RVeg7OvLRP9pc8ILFndI/pt/kICA20z978QcJrbrTP3k2k5jjKtQ/vMOQI1CG1D++xRdslMzUP9ECcgNo/dQ/sxXGlJgY1T/MaPkYCh7VP8l2lPO2DdU/VoiL+K/n1D+i+OVaHKzUPyviVYQ5W9Q/Idvp1Vr10z8AAxpS6XrTP5f6iDBj7NI/j1voW1tK0j+dzYbaeJXRPzDWIyJ2ztA/wLp1r0Dszz8jExf4rBrOP0DccgsRKsw/Cwbg02wcyj//whMp3vPHP/1/lqGessU/lh2fRwFbwz+fp7EzcO/AP2ap8x7U5Lw/vyvkBv/Mtz9AtfsjoZyyP94sw4onsqo/OjI0AogPoD8C+QDhaHGFPyj5AOFocYW/RDI0AogPoL/nLMOKJ7Kqvzq1+yOhnLK/wyvkBv/Mt79hqfMe1OS8v6GnsTNw78C/kx2fRwFbw7/+f5ahnrLFv/3CEyne88e/Dgbg02wcyr893HILESrMvyUTF/isGs6/v7p1r0Dsz78x1iMids7Qv53Nhtp4ldG/kFvoW1tK0r+Y+ogwY+zSvwADGlLpetO/INvp1Vr1078s4lWEOVvUv6L45VocrNS/VoiL+K/n1L/IdpTztg3Vv8xo+RgKHtW/sxXGlJgY1b/RAnIDaP3Uv77FF2yUzNS/vMOQI1CG1L95NpOY4yrUv3vxBwmtutO/pt/kICA207/ZXPCCxZ3SvxFV6Ds68tG/X1meIC800b/ei68XaGTQv1SSKJ92B8+/mnGvwyAmzb/NtrXIvibLv/5dMtNfC8m/0A3t4S/Wxr+cUVyQdYnEv5cqFb6PJ8K/OhVuOuZlv78KKrJUT1y6v2liKSGMN7W/8e138dP5r79wZrF/mWOlv5/PImClbpW/67a++/RLl7w=",
-                  "dtype": "float64",
-                  "shape": [
-                    100
-                  ]
-                }
-              ],
-              "ys": [
-                {
-                  "__ndarray__": "H4XrUbge1T8qk1Oj1RPVP6E0HtA489Q/erNxdgO91D+NxGB3bXHUP/aMUL3EENQ/D3Wn62yb0z/ykxf43hHTP3eT7q2odNI/pJTrG2zE0T/xvzHt3gHRP/O0A67JLdA/DccR+g2Szj/G0ONTBanMP5J1yIRxoso/VntPHGmAyD+YEUT3HkXGP/bYdvvf8sM/33exuBCMwT+i/YriVSa+P/4Ggxl2Fbk/4sDb7rrqsz8VWxnF71atPytU2zwruqI/0Xt+izEUkD8FdMXJGXJ1v0OEPZy3x5q/dx094KYLqL8WoqRIVE2xv8KA9kf/gra/E1/8p3Whu7+QoytHuFHAv2EUbz7jwcK/IoXrUbgexb/zETgIyGXHv7TFEFm5lMm/ajflGEypy7+7SMZKW6HNv+LITlbfes+/YdGfD/iZ0L+uu1N+Y2XRv6h9x0bgHtK/YXyjNK/F0r92Ks1UJFnTv1Xgpqan2NO/v9O/uLVD1L8iqlIw4JnUvzH6BjvO2tS/mnmA6jwG1b9HdV15/xvVv0d1XXn/G9W/mnmA6jwG1b8x+gY7ztrUvyKqUjDgmdS/v9O/uLVD1L9V4Kamp9jTv3YqzVQkWdO/YnyjNK/F0r+nfcdG4B7Sv6+7U35jZdG/YNGfD/iZ0L/jyE5W33rPv7pIxkpboc2/bDflGEypy7+xxRBZuZTJv/UROAjIZce/GoXrUbgexb9fFG8+48HCv5CjK0e4UcC/GV/8p3Whu7+5gPZH/4K2vxGipEhUTbG/dx094KYLqL9bhD2ct8eav2VzxckZcnW/5Ht+izEUkD8gVNs8K7qiPwBbGcXvVq0/5sDb7rrqsz/+BoMZdhW5P539iuJVJr4/43exuBCMwT/42Hb73/LDP5gRRPceRcY/VHtPHGmAyD+WdciEcaLKP8jQ41MFqcw/DccR+g2Szj/xtAOuyS3QP/K/Me3eAdE/pJTrG2zE0T93k+6tqHTSP/GTF/jeEdM/EHWn62yb0z/2jFC9xBDUP43EYHdtcdQ/e7NxdgO91D+hNB7QOPPUPyqTU6PVE9U/H4XrUbge1T8=",
-                  "dtype": "float64",
-                  "shape": [
-                    100
-                  ]
-                }
-              ]
-            },
-            "selected": {
-              "id": "24310",
-              "type": "Selection"
-            },
-            "selection_policy": {
-              "id": "24326",
-              "type": "UnionRenderers"
-            }
-          },
-          "id": "24309",
-          "type": "ColumnDataSource"
-        },
-        {
-          "attributes": {},
-          "id": "24326",
-          "type": "UnionRenderers"
-        },
-        {
-          "attributes": {},
-          "id": "24324",
-          "type": "UnionRenderers"
-        },
-        {
-          "attributes": {
-            "high": 1.0,
-            "low": 0.0,
-            "palette": [
-              "#440154",
-              "#440255",
-              "#440357",
-              "#450558",
-              "#45065a",
-              "#45085b",
-              "#46095c",
-              "#460b5e",
-              "#460c5f",
-              "#460e61",
-              "#470f62",
-              "#471163",
-              "#471265",
-              "#471466",
-              "#471567",
-              "#471669",
-              "#47186a",
-              "#48196b",
-              "#481a6c",
-              "#481c6e",
-              "#481d6f",
-              "#481e70",
-              "#482071",
-              "#482172",
-              "#482273",
-              "#482374",
-              "#472575",
-              "#472676",
-              "#472777",
-              "#472878",
-              "#472a79",
-              "#472b7a",
-              "#472c7b",
-              "#462d7c",
-              "#462f7c",
-              "#46307d",
-              "#46317e",
-              "#45327f",
-              "#45347f",
-              "#453580",
-              "#453681",
-              "#443781",
-              "#443982",
-              "#433a83",
-              "#433b83",
-              "#433c84",
-              "#423d84",
-              "#423e85",
-              "#424085",
-              "#414186",
-              "#414286",
-              "#404387",
-              "#404487",
-              "#3f4587",
-              "#3f4788",
-              "#3e4888",
-              "#3e4989",
-              "#3d4a89",
-              "#3d4b89",
-              "#3d4c89",
-              "#3c4d8a",
-              "#3c4e8a",
-              "#3b508a",
-              "#3b518a",
-              "#3a528b",
-              "#3a538b",
-              "#39548b",
-              "#39558b",
-              "#38568b",
-              "#38578c",
-              "#37588c",
-              "#37598c",
-              "#365a8c",
-              "#365b8c",
-              "#355c8c",
-              "#355d8c",
-              "#345e8d",
-              "#345f8d",
-              "#33608d",
-              "#33618d",
-              "#32628d",
-              "#32638d",
-              "#31648d",
-              "#31658d",
-              "#31668d",
-              "#30678d",
-              "#30688d",
-              "#2f698d",
-              "#2f6a8d",
-              "#2e6b8e",
-              "#2e6c8e",
-              "#2e6d8e",
-              "#2d6e8e",
-              "#2d6f8e",
-              "#2c708e",
-              "#2c718e",
-              "#2c728e",
-              "#2b738e",
-              "#2b748e",
-              "#2a758e",
-              "#2a768e",
-              "#2a778e",
-              "#29788e",
-              "#29798e",
-              "#287a8e",
-              "#287a8e",
-              "#287b8e",
-              "#277c8e",
-              "#277d8e",
-              "#277e8e",
-              "#267f8e",
-              "#26808e",
-              "#26818e",
-              "#25828e",
-              "#25838d",
-              "#24848d",
-              "#24858d",
-              "#24868d",
-              "#23878d",
-              "#23888d",
-              "#23898d",
-              "#22898d",
-              "#228a8d",
-              "#228b8d",
-              "#218c8d",
-              "#218d8c",
-              "#218e8c",
-              "#208f8c",
-              "#20908c",
-              "#20918c",
-              "#1f928c",
-              "#1f938b",
-              "#1f948b",
-              "#1f958b",
-              "#1f968b",
-              "#1e978a",
-              "#1e988a",
-              "#1e998a",
-              "#1e998a",
-              "#1e9a89",
-              "#1e9b89",
-              "#1e9c89",
-              "#1e9d88",
-              "#1e9e88",
-              "#1e9f88",
-              "#1ea087",
-              "#1fa187",
-              "#1fa286",
-              "#1fa386",
-              "#20a485",
-              "#20a585",
-              "#21a685",
-              "#21a784",
-              "#22a784",
-              "#23a883",
-              "#23a982",
-              "#24aa82",
-              "#25ab81",
-              "#26ac81",
-              "#27ad80",
-              "#28ae7f",
-              "#29af7f",
-              "#2ab07e",
-              "#2bb17d",
-              "#2cb17d",
-              "#2eb27c",
-              "#2fb37b",
-              "#30b47a",
-              "#32b57a",
-              "#33b679",
-              "#35b778",
-              "#36b877",
-              "#38b976",
-              "#39b976",
-              "#3bba75",
-              "#3dbb74",
-              "#3ebc73",
-              "#40bd72",
-              "#42be71",
-              "#44be70",
-              "#45bf6f",
-              "#47c06e",
-              "#49c16d",
-              "#4bc26c",
-              "#4dc26b",
-              "#4fc369",
-              "#51c468",
-              "#53c567",
-              "#55c666",
-              "#57c665",
-              "#59c764",
-              "#5bc862",
-              "#5ec961",
-              "#60c960",
-              "#62ca5f",
-              "#64cb5d",
-              "#67cc5c",
-              "#69cc5b",
-              "#6bcd59",
-              "#6dce58",
-              "#70ce56",
-              "#72cf55",
-              "#74d054",
-              "#77d052",
-              "#79d151",
-              "#7cd24f",
-              "#7ed24e",
-              "#81d34c",
-              "#83d34b",
-              "#86d449",
-              "#88d547",
-              "#8bd546",
-              "#8dd644",
-              "#90d643",
-              "#92d741",
-              "#95d73f",
-              "#97d83e",
-              "#9ad83c",
-              "#9dd93a",
-              "#9fd938",
-              "#a2da37",
-              "#a5da35",
-              "#a7db33",
-              "#aadb32",
-              "#addc30",
-              "#afdc2e",
-              "#b2dd2c",
-              "#b5dd2b",
-              "#b7dd29",
-              "#bade27",
-              "#bdde26",
-              "#bfdf24",
-              "#c2df22",
-              "#c5df21",
-              "#c7e01f",
-              "#cae01e",
-              "#cde01d",
-              "#cfe11c",
-              "#d2e11b",
-              "#d4e11a",
-              "#d7e219",
-              "#dae218",
-              "#dce218",
-              "#dfe318",
-              "#e1e318",
-              "#e4e318",
-              "#e7e419",
-              "#e9e419",
-              "#ece41a",
-              "#eee51b",
-              "#f1e51c",
-              "#f3e51e",
-              "#f6e61f",
-              "#f8e621",
-              "#fae622",
-              "#fde724"
-            ]
-          },
-          "id": "24300",
-          "type": "LinearColorMapper"
-        },
-        {
-          "attributes": {
-            "callback": null,
-            "data": {
-              "Level": {
-                "__ndarray__": "AAAAAAAAAAA=",
-                "dtype": "float64",
-                "shape": [
-                  1
-                ]
-              },
-              "xs": [
-                {
-                  "__ndarray__": "AAAAAAAAAADSFNkqh5OMP/jdQarMhJw/BfRP9jdRpT/cLTcsEEqsPwgczI3fkrE/gWNJfJnutD/EOByovzS4P85s0BXyYbs/wWeRgupyvj8AlCHiP7LAP9t5zoXUGcI/ZvZ0gsBuwz85DBtqpK/EP9QP6nQ128U/KHco1j7wxj8XHIv6ou3HPyLRla5c0sg/3tTbK4CdyT9OlwoMPE7KP6FIxCDa48o/pq9rL8Bdyz9Ssh+QcLvLP2uuQq+K/Ms/7hwIccsgzD8Q4aF2DSjMP7bzxURJEsw/yLVkS5Xfyz8t9ofOJZDLP+SCcrBMJMs/1s43HXmcyj+qriIYN/nJPx5OYesuO8k/viSLeiRjyD/SvLN49nHHP+py2oKdaMY/1dGjHytIxT9st2SlyBHEPyrooQe2xsI/BwRAjUhowT+prm/h0u+/P1BVc9co7rw/HdJ+X6zOuT/UNEKalZS2P+9wohQ4Q7M//uTas/67rz+r8aTa1tCoP+kdglwazKE/o+2arQpqlT9YoVaBNpd8P4uhVoE2l3y/r+2arQpqlb/vHYJcGsyhv6PxpNrW0Ki/BOXas/67r7/rcKIUOEOzv9c0QpqVlLa/GdJ+X6zOub9SVXPXKO68v6aub+HS77+/CQRAjUhowb8p6KEHtsbCv263ZKXIEcS/1dGjHytIxb/rctqCnWjGv9G8s3j2cce/wCSLeiRjyL8fTmHrLjvJv6quIhg3+cm/1c43HXmcyr/lgnKwTCTLvy32h84lkMu/yLVkS5Xfy7+188VESRLMvxDhoXYNKMy/7hwIccsgzL9rrkKvivzLv1OyH5Bwu8u/pq9rL8Bdy7+hSMQg2uPKv0+XCgw8Tsq/3dTbK4Cdyb8h0ZWuXNLIvxcci/qi7ce/KXco1j7wxr/SD+p0NdvFvzgMG2qkr8S/ZvZ0gsBuw7/eec6F1BnCv/6TIeI/ssC/wGeRgupyvr/QbNAV8mG7v8k4HKi/NLi/e2NJfJnutL8HHMyN35Kxv+EtNywQSqy/9vNP9jdRpb/q3UGqzIScv9QU2SqHk4y/4/OoT/EPj7w=",
-                  "dtype": "float64",
-                  "shape": [
-                    100
-                  ]
-                }
-              ],
-              "ys": [
-                {
-                  "__ndarray__": "KVyPwvUozD+NGRovchrMP9bw0mr27ss/+JmXSK+myz9nW9ZJ50HLP/O7wFEGwco/FJw0OpEkyj+YGspKKW3JP0lvk5KLm8g/hRs6JZCwxz9BVUI8Ka3GP5lGWj1iksU/s4S2pl5hxD+E4JfiWBvDP2FOMAOhwcE/5Pw0aJtVwD/LbAWffrG9P552nqQqmbo/05/soGtltz/BUweXjhm0P/5ZV2b5uLA/16vPk06Oqj+5PGaDSo+jP4/FeaY5+Jg/wU9TD0JwhT+xmlxiIphsv9cCKWh62pG/pRN+lcQHoL8d2DC2xRGnvwMBngr/A66/DepSxaNrsr/AhI8JS8K1v9fFPlOEArm/LVyPwvUovL9DbfUKYDK/v3guC+bQDcG/8STuZd1wwr8n2y6H58DDv+uFNOSU/MS/LBfVFKAixr89+sT92THHv+D8CQkrKci/gVAvRpQHyb/yjRFxMMzJv8bVM940dsq/qW+qS/IEy7+DjcOV1XfLv0H4s05ozsu/zkyrOFEIzL+08dGhVCXMv7Tx0aFUJcy/zkyrOFEIzL9B+LNOaM7Lv4ONw5XVd8u/qW+qS/IEy7/H1TPeNHbKv/KNEXEwzMm/glAvRpQHyb/f/AkJKynIvz76xP3ZMce/KxfVFKAixr/shTTklPzEvybbLofnwMO/8yTuZd1wwr92Lgvm0A3Bv0dt9QpgMr+/I1yPwvUovL/UxT5ThAK5v8CEjwlLwrW/EOpSxaNrsr/2AJ4K/wOuvxbYMLbFEae/pRN+lcQHoL/nAiloetqRv9yZXGIimGy/209TD0JwhT+AxXmmOfiYP6s8ZoNKj6M/3qvPk06Oqj/+WVdm+biwP75TB5eOGbQ/2p/soGtltz+gdp6kKpm6P8tsBZ9+sb0/4vw0aJtVwD9kTjADocHBP4Xgl+JYG8M/s4S2pl5hxD+XRlo9YpLFP0JVQjwprcY/hRs6JZCwxz9Jb5OSi5vIP5caykopbck/FJw0OpEkyj/zu8BRBsHKP2db1knnQcs/+ZmXSK+myz/W8NJq9u7LP40ZGi9yGsw/KVyPwvUozD8=",
-                  "dtype": "float64",
-                  "shape": [
-                    100
-                  ]
-                }
-              ]
-            },
-            "selected": {
-              "id": "24302",
-              "type": "Selection"
-            },
-            "selection_policy": {
-              "id": "24324",
-              "type": "UnionRenderers"
-            }
-          },
-          "id": "24301",
-          "type": "ColumnDataSource"
-        },
-        {
-          "attributes": {},
-          "id": "24302",
-          "type": "Selection"
-        },
-        {
-          "attributes": {
-            "line_color": {
-              "field": "Level",
-              "transform": {
-                "id": "24300",
-                "type": "LinearColorMapper"
-              }
-            },
-            "xs": {
-              "field": "xs"
-            },
-            "ys": {
-              "field": "ys"
-            }
-          },
-          "id": "24304",
-          "type": "MultiLine"
-        },
-        {
-          "attributes": {
-            "line_alpha": {
-              "value": 0.1
-            },
-            "line_color": {
-              "field": "Level",
-              "transform": {
-                "id": "24300",
-                "type": "LinearColorMapper"
-              }
-            },
-            "xs": {
-              "field": "xs"
-            },
-            "ys": {
-              "field": "ys"
-            }
-          },
-          "id": "24305",
-          "type": "MultiLine"
-        },
-        {
-          "attributes": {
-            "data_source": {
-              "id": "24301",
-              "type": "ColumnDataSource"
-            },
-            "glyph": {
-              "id": "24304",
-              "type": "MultiLine"
-            },
-            "hover_glyph": null,
-            "muted_glyph": null,
-            "nonselection_glyph": {
-              "id": "24305",
-              "type": "MultiLine"
-            },
-            "selection_glyph": null,
-            "view": {
-              "id": "24307",
-              "type": "CDSView"
-            }
-          },
-          "id": "24306",
-          "type": "GlyphRenderer"
-        },
-        {
-          "attributes": {
-            "source": {
-              "id": "24301",
-              "type": "ColumnDataSource"
-            }
-          },
-          "id": "24307",
-          "type": "CDSView"
-        },
-        {
-          "attributes": {
-            "high": 1.0,
-            "low": 0.0,
-            "palette": [
-              "#440154",
-              "#440255",
-              "#440357",
-              "#450558",
-              "#45065a",
-              "#45085b",
-              "#46095c",
-              "#460b5e",
-              "#460c5f",
-              "#460e61",
-              "#470f62",
-              "#471163",
-              "#471265",
-              "#471466",
-              "#471567",
-              "#471669",
-              "#47186a",
-              "#48196b",
-              "#481a6c",
-              "#481c6e",
-              "#481d6f",
-              "#481e70",
-              "#482071",
-              "#482172",
-              "#482273",
-              "#482374",
-              "#472575",
-              "#472676",
-              "#472777",
-              "#472878",
-              "#472a79",
-              "#472b7a",
-              "#472c7b",
-              "#462d7c",
-              "#462f7c",
-              "#46307d",
-              "#46317e",
-              "#45327f",
-              "#45347f",
-              "#453580",
-              "#453681",
-              "#443781",
-              "#443982",
-              "#433a83",
-              "#433b83",
-              "#433c84",
-              "#423d84",
-              "#423e85",
-              "#424085",
-              "#414186",
-              "#414286",
-              "#404387",
-              "#404487",
-              "#3f4587",
-              "#3f4788",
-              "#3e4888",
-              "#3e4989",
-              "#3d4a89",
-              "#3d4b89",
-              "#3d4c89",
-              "#3c4d8a",
-              "#3c4e8a",
-              "#3b508a",
-              "#3b518a",
-              "#3a528b",
-              "#3a538b",
-              "#39548b",
-              "#39558b",
-              "#38568b",
-              "#38578c",
-              "#37588c",
-              "#37598c",
-              "#365a8c",
-              "#365b8c",
-              "#355c8c",
-              "#355d8c",
-              "#345e8d",
-              "#345f8d",
-              "#33608d",
-              "#33618d",
-              "#32628d",
-              "#32638d",
-              "#31648d",
-              "#31658d",
-              "#31668d",
-              "#30678d",
-              "#30688d",
-              "#2f698d",
-              "#2f6a8d",
-              "#2e6b8e",
-              "#2e6c8e",
-              "#2e6d8e",
-              "#2d6e8e",
-              "#2d6f8e",
-              "#2c708e",
-              "#2c718e",
-              "#2c728e",
-              "#2b738e",
-              "#2b748e",
-              "#2a758e",
-              "#2a768e",
-              "#2a778e",
-              "#29788e",
-              "#29798e",
-              "#287a8e",
-              "#287a8e",
-              "#287b8e",
-              "#277c8e",
-              "#277d8e",
-              "#277e8e",
-              "#267f8e",
-              "#26808e",
-              "#26818e",
-              "#25828e",
-              "#25838d",
-              "#24848d",
-              "#24858d",
-              "#24868d",
-              "#23878d",
-              "#23888d",
-              "#23898d",
-              "#22898d",
-              "#228a8d",
-              "#228b8d",
-              "#218c8d",
-              "#218d8c",
-              "#218e8c",
-              "#208f8c",
-              "#20908c",
-              "#20918c",
-              "#1f928c",
-              "#1f938b",
-              "#1f948b",
-              "#1f958b",
-              "#1f968b",
-              "#1e978a",
-              "#1e988a",
-              "#1e998a",
-              "#1e998a",
-              "#1e9a89",
-              "#1e9b89",
-              "#1e9c89",
-              "#1e9d88",
-              "#1e9e88",
-              "#1e9f88",
-              "#1ea087",
-              "#1fa187",
-              "#1fa286",
-              "#1fa386",
-              "#20a485",
-              "#20a585",
-              "#21a685",
-              "#21a784",
-              "#22a784",
-              "#23a883",
-              "#23a982",
-              "#24aa82",
-              "#25ab81",
-              "#26ac81",
-              "#27ad80",
-              "#28ae7f",
-              "#29af7f",
-              "#2ab07e",
-              "#2bb17d",
-              "#2cb17d",
-              "#2eb27c",
-              "#2fb37b",
-              "#30b47a",
-              "#32b57a",
-              "#33b679",
-              "#35b778",
-              "#36b877",
-              "#38b976",
-              "#39b976",
-              "#3bba75",
-              "#3dbb74",
-              "#3ebc73",
-              "#40bd72",
-              "#42be71",
-              "#44be70",
-              "#45bf6f",
-              "#47c06e",
-              "#49c16d",
-              "#4bc26c",
-              "#4dc26b",
-              "#4fc369",
-              "#51c468",
-              "#53c567",
-              "#55c666",
-              "#57c665",
-              "#59c764",
-              "#5bc862",
-              "#5ec961",
-              "#60c960",
-              "#62ca5f",
-              "#64cb5d",
-              "#67cc5c",
-              "#69cc5b",
-              "#6bcd59",
-              "#6dce58",
-              "#70ce56",
-              "#72cf55",
-              "#74d054",
-              "#77d052",
-              "#79d151",
-              "#7cd24f",
-              "#7ed24e",
-              "#81d34c",
-              "#83d34b",
-              "#86d449",
-              "#88d547",
-              "#8bd546",
-              "#8dd644",
-              "#90d643",
-              "#92d741",
-              "#95d73f",
-              "#97d83e",
-              "#9ad83c",
-              "#9dd93a",
-              "#9fd938",
-              "#a2da37",
-              "#a5da35",
-              "#a7db33",
-              "#aadb32",
-              "#addc30",
-              "#afdc2e",
-              "#b2dd2c",
-              "#b5dd2b",
-              "#b7dd29",
-              "#bade27",
-              "#bdde26",
-              "#bfdf24",
-              "#c2df22",
-              "#c5df21",
-              "#c7e01f",
-              "#cae01e",
-              "#cde01d",
-              "#cfe11c",
-              "#d2e11b",
-              "#d4e11a",
-              "#d7e219",
-              "#dae218",
-              "#dce218",
-              "#dfe318",
-              "#e1e318",
-              "#e4e318",
-              "#e7e419",
-              "#e9e419",
-              "#ece41a",
-              "#eee51b",
-              "#f1e51c",
-              "#f3e51e",
-              "#f6e61f",
-              "#f8e621",
-              "#fae622",
-              "#fde724"
-            ]
-          },
-          "id": "24308",
-          "type": "LinearColorMapper"
-        },
-        {
-          "attributes": {
-            "plot": {
-              "id": "24257",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
+            "dimension": 1,
             "ticker": {
-              "id": "24266",
+              "id": "23904",
               "type": "BasicTicker"
             }
           },
-          "id": "24269",
+          "id": "23907",
           "type": "Grid"
         },
         {
           "attributes": {},
-          "id": "24263",
-          "type": "LinearScale"
-        },
-        {
-          "attributes": {},
-          "id": "24261",
-          "type": "LinearScale"
-        },
-        {
-          "attributes": {},
-          "id": "24266",
+          "id": "23904",
           "type": "BasicTicker"
-        },
-        {
-          "attributes": {
-            "axis_label": "x",
-            "bounds": "auto",
-            "formatter": {
-              "id": "24288",
-              "type": "BasicTickFormatter"
-            },
-            "major_label_orientation": "horizontal",
-            "plot": {
-              "id": "24257",
-              "subtype": "Figure",
-              "type": "Plot"
-            },
-            "ticker": {
-              "id": "24266",
-              "type": "BasicTicker"
-            }
-          },
-          "id": "24265",
-          "type": "LinearAxis"
-        },
-        {
-          "attributes": {},
-          "id": "24288",
-          "type": "BasicTickFormatter"
-        },
-        {
-          "attributes": {
-            "active_drag": "auto",
-            "active_inspect": "auto",
-            "active_multi": null,
-            "active_scroll": "auto",
-            "active_tap": "auto",
-            "tools": [
-              {
-                "id": "24275",
-                "type": "SaveTool"
-              },
-              {
-                "id": "24276",
-                "type": "PanTool"
-              },
-              {
-                "id": "24277",
-                "type": "WheelZoomTool"
-              },
-              {
-                "id": "24278",
-                "type": "BoxZoomTool"
-              },
-              {
-                "id": "24279",
-                "type": "ResetTool"
-              }
-            ]
-          },
-          "id": "24280",
-          "type": "Toolbar"
         },
         {
           "attributes": {
@@ -1497,50 +1466,69 @@
             "line_width": {
               "value": 2
             },
-            "plot": null,
             "render_mode": "css",
             "right_units": "screen",
             "top_units": "screen"
           },
-          "id": "24283",
+          "id": "23960",
           "type": "BoxAnnotation"
         },
         {
+          "attributes": {},
+          "id": "23909",
+          "type": "PanTool"
+        },
+        {
+          "attributes": {},
+          "id": "23908",
+          "type": "SaveTool"
+        },
+        {
           "attributes": {
-            "line_alpha": {
-              "value": 0.1
+            "color_mapper": {
+              "id": "23925",
+              "type": "LinearColorMapper"
             },
-            "line_color": {
-              "field": "Level",
-              "transform": {
-                "id": "24308",
-                "type": "LinearColorMapper"
-              }
+            "dh": {
+              "field": "dh",
+              "units": "data"
             },
-            "xs": {
-              "field": "xs"
+            "dw": {
+              "field": "dw",
+              "units": "data"
             },
-            "ys": {
-              "field": "ys"
+            "image": {
+              "field": "image"
+            },
+            "x": {
+              "field": "x"
+            },
+            "y": {
+              "field": "y"
             }
           },
-          "id": "24313",
-          "type": "MultiLine"
+          "id": "23929",
+          "type": "Image"
+        },
+        {
+          "attributes": {},
+          "id": "23955",
+          "type": "UnionRenderers"
         }
       ],
       "root_ids": [
-        "24257"
+        "23889"
       ]
     },
     "title": "Bokeh Application",
-    "version": "1.0.0"
+    "version": "1.1.0rc1"
   }
 };
   var render_items = [
   {
     "docid": 171,
     "roots": {
-      "24257": 172
+      "23889": 172
     }
   }
 ];
